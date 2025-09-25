@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 0,
-    "totalExp": 10
+    "level": 1,
+    "totalExp": 40
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 0,
-      "exp": 10,
+      "level": 1,
+      "exp": 20,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 5
+    "coins": 20
   },
   "tasks": [],
   "taskHistory": [
@@ -63,6 +63,24 @@
       "coinPenalty": 3,
       "completedAt": "2025-09-25T13:56:03.626Z",
       "completionData": {}
+    },
+    {
+      "id": "task_1758809915844",
+      "createdAt": "2025-09-25T14:18:35.844Z",
+      "status": "completed",
+      "name": "测试",
+      "attribute": "physical",
+      "difficulty": "hard",
+      "priority": "urgent_not_important",
+      "repeat": "none",
+      "startDate": "2025-09-25",
+      "endDate": null,
+      "expReward": 30,
+      "coinReward": 15,
+      "expPenalty": 15,
+      "coinPenalty": 8,
+      "completedAt": "2025-09-25T14:18:39.812Z",
+      "completionData": {}
     }
   ],
   "shopItems": [],
@@ -73,15 +91,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 1,
-    "tasksCreated": 1,
-    "coinsEarned": 5,
+    "tasksCompleted": 2,
+    "tasksCreated": 2,
+    "coinsEarned": 20,
     "coinsSpent": 0,
-    "expGained": 10,
+    "expGained": 40,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-25T14:08:00.230Z"
+    "lastSave": "2025-09-25T14:55:47.629Z"
   }
 }
