@@ -1,1 +1,87 @@
-
+{
+  "character": {
+    "name": "冒险者",
+    "level": 0,
+    "totalExp": 10
+  },
+  "attributes": {
+    "physical": {
+      "name": "体魄",
+      "level": 0,
+      "exp": 10,
+      "icon": "bi-heart-fill",
+      "color": "physical"
+    },
+    "intelligence": {
+      "name": "智力",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-lightbulb-fill",
+      "color": "intelligence"
+    },
+    "charm": {
+      "name": "魅力",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-star-fill",
+      "color": "charm"
+    },
+    "wealth": {
+      "name": "财富",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-coin",
+      "color": "wealth"
+    },
+    "willpower": {
+      "name": "意志",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-shield-fill",
+      "color": "willpower"
+    }
+  },
+  "resources": {
+    "coins": 5
+  },
+  "tasks": [],
+  "taskHistory": [
+    {
+      "id": "task_1758808560962",
+      "createdAt": "2025-09-25T13:56:00.962Z",
+      "status": "completed",
+      "name": "dfsf ",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-09-25",
+      "endDate": "2025-09-30",
+      "expReward": 10,
+      "coinReward": 5,
+      "expPenalty": 5,
+      "coinPenalty": 3,
+      "completedAt": "2025-09-25T13:56:03.626Z",
+      "completionData": {}
+    }
+  ],
+  "shopItems": [],
+  "purchaseHistory": [],
+  "githubSettings": {
+    "token": "",
+    "repo": "yangsircar/lifeup",
+    "path": "lifeup.json"
+  },
+  "statistics": {
+    "tasksCompleted": 1,
+    "tasksCreated": 1,
+    "coinsEarned": 5,
+    "coinsSpent": 0,
+    "expGained": 10,
+    "weeklyData": {},
+    "monthlyData": {}
+  },
+  "settings": {
+    "lastSave": "2025-09-25T14:08:00.230Z"
+  }
+}
