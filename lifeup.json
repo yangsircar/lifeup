@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 15
+    "coins": 0
   },
   "tasks": [
     {
@@ -106,7 +106,7 @@
   "statistics": {
     "tasksCompleted": 3,
     "tasksCreated": 6,
-    "coinsEarned": 15,
+    "coinsEarned": 0,
     "coinsSpent": 0,
     "expGained": 50,
     "weeklyData": {},
