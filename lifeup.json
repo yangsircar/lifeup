@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 1,
-    "totalExp": 0
+    "level": 3,
+    "totalExp": 80
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 1,
-      "exp": 10,
+      "level": 2,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
@@ -42,10 +42,47 @@
     }
   },
   "resources": {
-    "coins": 0
+    "coins": 5
   },
-  "tasks": [],
-  "taskHistory": [],
+  "tasks": [
+    {
+      "id": "task_1759033432862",
+      "createdAt": "2025-09-28T04:23:52.862Z",
+      "status": "pending",
+      "name": "士大夫撒旦",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-09-28",
+      "endDate": null,
+      "expReward": 10,
+      "coinReward": 5,
+      "expPenalty": 5,
+      "coinPenalty": 3,
+      "completedAt": "2025-09-28T04:23:59.413Z"
+    }
+  ],
+  "taskHistory": [
+    {
+      "id": "task_1759032729056",
+      "createdAt": "2025-09-28T04:12:09.056Z",
+      "status": "completed",
+      "name": " 的撒 ",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-09-28",
+      "endDate": null,
+      "expReward": 10,
+      "coinReward": 5,
+      "expPenalty": 5,
+      "coinPenalty": 3,
+      "completedAt": "2025-09-28T04:12:12.633Z",
+      "completionData": {}
+    }
+  ],
   "shopItems": [],
   "purchaseHistory": [],
   "githubSettings": {
@@ -54,15 +91,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 0,
-    "tasksCreated": 0,
-    "coinsEarned": 0,
+    "tasksCompleted": 1,
+    "tasksCreated": 4,
+    "coinsEarned": 5,
     "coinsSpent": 0,
-    "expGained": 0,
+    "expGained": 30,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-26T00:35:19.693Z"
+    "lastSave": "2025-09-28T04:28:27.517Z"
   }
 }
