@@ -78,22 +78,6 @@
       "expPenalty": 5,
       "coinPenalty": 3,
       "completedAt": "2025-09-28T10:57:01.757Z"
-    },
-    {
-      "id": "task_1759050055012",
-      "createdAt": "2025-09-28T09:00:55.012Z",
-      "status": "pending",
-      "name": "ad ad",
-      "attribute": "physical",
-      "difficulty": "easy",
-      "priority": "not_important_not_urgent",
-      "repeat": "none",
-      "startDate": "2025-09-28",
-      "endDate": null,
-      "expReward": 10,
-      "coinReward": 5,
-      "expPenalty": 5,
-      "coinPenalty": 3
     }
   ],
   "shopItems": [],
@@ -113,7 +97,7 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-28T10:57:13.710Z"
+    "lastSave": "2025-09-28T11:05:57.156Z"
   },
   "taskHistory": [
     {
