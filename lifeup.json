@@ -48,7 +48,7 @@
     {
       "id": "task_1759116702437",
       "createdAt": "2025-09-29T03:31:42.437Z",
-      "status": "pending",
+      "status": "completed",
       "name": "单杠",
       "attribute": "physical",
       "difficulty": "easy",
@@ -59,12 +59,13 @@
       "expReward": 5,
       "coinReward": 10,
       "expPenalty": 3,
-      "coinPenalty": 5
+      "coinPenalty": 5,
+      "completedAt": "2025-09-29T14:26:43.786Z"
     },
     {
       "id": "task_1759129294435",
       "createdAt": "2025-09-29T07:01:34.435Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "easy",
@@ -75,7 +76,41 @@
       "expReward": 10,
       "coinReward": 20,
       "expPenalty": 5,
-      "coinPenalty": 10
+      "coinPenalty": 10,
+      "abandonedAt": "2025-09-29T14:26:48.635Z"
+    },
+    {
+      "id": "task_1759156003826",
+      "createdAt": "2025-09-29T03:31:42.437Z",
+      "status": "pending",
+      "name": "单杠",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-30",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5
+    },
+    {
+      "id": "task_1759156008679",
+      "createdAt": "2025-09-29T07:01:34.435Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-30",
+      "endDate": null,
+      "expReward": 10,
+      "coinReward": 20,
+      "expPenalty": 5,
+      "coinPenalty": 10,
+      "abandonedAt": "2025-09-29T14:26:48.635Z"
     }
   ],
   "shopItems": [],
@@ -86,15 +121,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 5,
+    "tasksCompleted": 6,
     "tasksCreated": 10,
-    "coinsEarned": 25,
-    "coinsSpent": 5,
+    "coinsEarned": 35,
+    "coinsSpent": 15,
     "expGained": 60,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-29T07:02:08.796Z"
+    "lastSave": "2025-09-29T14:27:03.832Z"
   }
 }
