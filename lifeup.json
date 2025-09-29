@@ -44,7 +44,40 @@
   "resources": {
     "coins": 0
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "task_1759116702437",
+      "createdAt": "2025-09-29T03:31:42.437Z",
+      "status": "pending",
+      "name": "单杠",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-29",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5
+    },
+    {
+      "id": "task_1759116714638",
+      "createdAt": "2025-09-29T03:31:54.638Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-29",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5
+    }
+  ],
   "shopItems": [],
   "purchaseHistory": [],
   "githubSettings": {
@@ -54,7 +87,7 @@
   },
   "statistics": {
     "tasksCompleted": 5,
-    "tasksCreated": 7,
+    "tasksCreated": 9,
     "coinsEarned": 25,
     "coinsSpent": 5,
     "expGained": 60,
@@ -62,7 +95,7 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-29T03:26:46.621Z"
+    "lastSave": "2025-09-29T03:32:08.790Z"
   },
   "taskHistory": [
     {
