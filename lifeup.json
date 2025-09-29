@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 3,
-    "totalExp": 110
+    "level": 0,
+    "totalExp": 0
   },
   "attributes": {
     "physical": {
