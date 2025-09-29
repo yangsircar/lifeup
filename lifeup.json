@@ -62,20 +62,20 @@
       "coinPenalty": 5
     },
     {
-      "id": "task_1759116714638",
-      "createdAt": "2025-09-29T03:31:54.638Z",
+      "id": "task_1759129294435",
+      "createdAt": "2025-09-29T07:01:34.435Z",
       "status": "pending",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "easy",
-      "priority": "not_important_not_urgent",
+      "priority": "important_not_urgent",
       "repeat": "daily",
       "startDate": "2025-09-29",
       "endDate": null,
-      "expReward": 5,
-      "coinReward": 10,
-      "expPenalty": 3,
-      "coinPenalty": 5
+      "expReward": 10,
+      "coinReward": 20,
+      "expPenalty": 5,
+      "coinPenalty": 10
     }
   ],
   "shopItems": [],
@@ -87,7 +87,7 @@
   },
   "statistics": {
     "tasksCompleted": 5,
-    "tasksCreated": 9,
+    "tasksCreated": 10,
     "coinsEarned": 25,
     "coinsSpent": 5,
     "expGained": 60,
@@ -95,6 +95,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-29T07:00:42.035Z"
+    "lastSave": "2025-09-29T07:02:08.796Z"
   }
 }
