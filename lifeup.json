@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": 20
+    "totalExp": 30
   },
   "attributes": {
     "physical": {
@@ -22,7 +22,7 @@
     "charm": {
       "name": "魅力",
       "level": 0,
-      "exp": 0,
+      "exp": 10,
       "icon": "bi-star-fill",
       "color": "charm"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 25
+    "coins": 45
   },
   "tasks": [
     {
@@ -179,6 +179,39 @@
       "coinReward": 10,
       "expPenalty": 3,
       "coinPenalty": 5
+    },
+    {
+      "id": "task_1759238518063",
+      "createdAt": "2025-09-30T13:21:58.063Z",
+      "status": "completed",
+      "name": "早饭后，午饭后刷牙，漱口水",
+      "attribute": "charm",
+      "difficulty": "easy",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-30",
+      "endDate": null,
+      "expReward": 10,
+      "coinReward": 20,
+      "expPenalty": 5,
+      "coinPenalty": 10,
+      "completedAt": "2025-09-30T13:22:01.915Z"
+    },
+    {
+      "id": "task_1759238521947",
+      "createdAt": "2025-09-30T13:21:58.063Z",
+      "status": "pending",
+      "name": "早饭后，午饭后刷牙，漱口水",
+      "attribute": "charm",
+      "difficulty": "easy",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-01",
+      "endDate": null,
+      "expReward": 10,
+      "coinReward": 20,
+      "expPenalty": 5,
+      "coinPenalty": 10
     }
   ],
   "shopItems": [
@@ -224,15 +257,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 4,
-    "tasksCreated": 11,
-    "coinsEarned": 75,
+    "tasksCompleted": 5,
+    "tasksCreated": 12,
+    "coinsEarned": 95,
     "coinsSpent": 30,
-    "expGained": 80,
+    "expGained": 90,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-30T13:19:56.658Z"
+    "lastSave": "2025-09-30T13:22:20.148Z"
   }
 }
