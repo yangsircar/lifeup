@@ -154,6 +154,22 @@
       "description": "",
       "price": 1,
       "image": "food"
+    },
+    {
+      "id": "item_1759214570101",
+      "createdAt": "2025-09-30T06:42:50.101Z",
+      "name": "零食",
+      "description": "",
+      "price": 1,
+      "image": "food"
+    },
+    {
+      "id": "item_1759214585324",
+      "createdAt": "2025-09-30T06:43:05.324Z",
+      "name": "原神月卡",
+      "description": "",
+      "price": 30,
+      "image": "game"
     }
   ],
   "purchaseHistory": [],
@@ -172,6 +188,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-30T06:42:28.117Z"
+    "lastSave": "2025-09-30T06:43:08.125Z"
   }
 }
