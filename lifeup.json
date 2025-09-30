@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 30
+    "coins": 15
   },
   "tasks": [
     {
@@ -190,7 +190,17 @@
       "image": "game"
     }
   ],
-  "purchaseHistory": [],
+  "purchaseHistory": [
+    {
+      "id": "purchase_1759229899908",
+      "itemId": "item_1759214570101",
+      "itemName": "零食",
+      "price": 1,
+      "quantity": 15,
+      "totalPrice": 15,
+      "purchasedAt": "2025-09-30T10:58:19.908Z"
+    }
+  ],
   "githubSettings": {
     "token": "",
     "repo": "yangsircar/lifeup",
@@ -200,12 +210,12 @@
     "tasksCompleted": 3,
     "tasksCreated": 11,
     "coinsEarned": 65,
-    "coinsSpent": 15,
+    "coinsSpent": 30,
     "expGained": 75,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-30T10:42:49.114Z"
+    "lastSave": "2025-09-30T10:58:36.836Z"
   }
 }
