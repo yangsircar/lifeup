@@ -111,6 +111,22 @@
       "expPenalty": 5,
       "coinPenalty": 10,
       "abandonedAt": "2025-09-29T14:26:48.635Z"
+    },
+    {
+      "id": "task_1759198429511",
+      "createdAt": "2025-09-30T02:13:49.511Z",
+      "status": "pending",
+      "name": "路透社",
+      "attribute": "intelligence",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-09-30",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5
     }
   ],
   "shopItems": [],
@@ -122,7 +138,7 @@
   },
   "statistics": {
     "tasksCompleted": 1,
-    "tasksCreated": 10,
+    "tasksCreated": 11,
     "coinsEarned": 35,
     "coinsSpent": 15,
     "expGained": 60,
@@ -130,6 +146,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-29T14:28:59.403Z"
+    "lastSave": "2025-09-30T02:13:55.711Z"
   }
 }
