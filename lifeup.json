@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": 15
+    "totalExp": 20
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 0,
-      "exp": 10,
+      "exp": 15,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 15
+    "coins": 25
   },
   "tasks": [
     {
@@ -82,7 +82,7 @@
     {
       "id": "task_1759156003826",
       "createdAt": "2025-09-29T03:31:42.437Z",
-      "status": "pending",
+      "status": "completed",
       "name": "单杠",
       "attribute": "physical",
       "difficulty": "easy",
@@ -93,7 +93,8 @@
       "expReward": 5,
       "coinReward": 10,
       "expPenalty": 3,
-      "coinPenalty": 5
+      "coinPenalty": 5,
+      "completedAt": "2025-09-30T13:19:48.756Z"
     },
     {
       "id": "task_1759156008679",
@@ -162,6 +163,22 @@
       "expPenalty": 5,
       "coinPenalty": 10,
       "abandonedAt": "2025-09-29T14:26:48.635Z"
+    },
+    {
+      "id": "task_1759238388791",
+      "createdAt": "2025-09-29T03:31:42.437Z",
+      "status": "pending",
+      "name": "单杠",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-01",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5
     }
   ],
   "shopItems": [
@@ -207,15 +224,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 3,
+    "tasksCompleted": 4,
     "tasksCreated": 11,
-    "coinsEarned": 65,
+    "coinsEarned": 75,
     "coinsSpent": 30,
-    "expGained": 75,
+    "expGained": 80,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-30T10:58:36.836Z"
+    "lastSave": "2025-09-30T13:19:56.658Z"
   }
 }
