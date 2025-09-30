@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": 0
+    "totalExp": 5
   },
   "attributes": {
     "physical": {
@@ -15,7 +15,7 @@
     "intelligence": {
       "name": "智力",
       "level": 0,
-      "exp": 0,
+      "exp": 5,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 0
+    "coins": 10
   },
   "tasks": [
     {
@@ -115,13 +115,30 @@
     {
       "id": "task_1759198429511",
       "createdAt": "2025-09-30T02:13:49.511Z",
-      "status": "pending",
+      "status": "completed",
       "name": "路透社",
       "attribute": "intelligence",
       "difficulty": "easy",
       "priority": "not_important_not_urgent",
       "repeat": "daily",
       "startDate": "2025-09-30",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5,
+      "completedAt": "2025-09-30T02:30:53.615Z"
+    },
+    {
+      "id": "task_1759199453632",
+      "createdAt": "2025-09-30T02:13:49.511Z",
+      "status": "pending",
+      "name": "路透社",
+      "attribute": "intelligence",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-01",
       "endDate": null,
       "expReward": 5,
       "coinReward": 10,
@@ -137,15 +154,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 1,
+    "tasksCompleted": 2,
     "tasksCreated": 11,
-    "coinsEarned": 35,
+    "coinsEarned": 45,
     "coinsSpent": 15,
-    "expGained": 60,
+    "expGained": 65,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-09-30T02:13:55.711Z"
+    "lastSave": "2025-09-30T02:31:09.288Z"
   }
 }
