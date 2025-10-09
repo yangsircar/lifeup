@@ -2,27 +2,27 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": 30
+    "totalExp": 0
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 0,
-      "exp": 15,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
     "intelligence": {
       "name": "智力",
       "level": 0,
-      "exp": 5,
+      "exp": 0,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence"
     },
     "charm": {
       "name": "魅力",
       "level": 0,
-      "exp": 10,
+      "exp": 0,
       "icon": "bi-star-fill",
       "color": "charm"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": 45
+    "coins": 0
   },
   "tasks": [],
   "shopItems": [
@@ -88,11 +88,11 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 5,
-    "tasksCreated": 12,
-    "coinsEarned": 95,
-    "coinsSpent": 30,
-    "expGained": 90,
+    "tasksCompleted": 0,
+    "tasksCreated": 0,
+    "coinsEarned": 0,
+    "coinsSpent": 0,
+    "expGained": 0,
     "weeklyData": {},
     "monthlyData": {}
   },
