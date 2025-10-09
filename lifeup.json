@@ -44,7 +44,24 @@
   "resources": {
     "coins": 0
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "task_1759989383426",
+      "createdAt": "2025-10-09T05:56:23.426Z",
+      "status": "pending",
+      "name": "晚上十一点睡觉",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-09",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160
+    }
+  ],
   "shopItems": [
     {
       "id": "item_1759200012886",
@@ -89,7 +106,7 @@
   },
   "statistics": {
     "tasksCompleted": 0,
-    "tasksCreated": 0,
+    "tasksCreated": 1,
     "coinsEarned": 0,
     "coinsSpent": 0,
     "expGained": 0,
@@ -97,6 +114,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-09T05:24:45.797Z"
+    "lastSave": "2025-10-09T05:56:32.282Z"
   }
 }
