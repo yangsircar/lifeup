@@ -60,6 +60,22 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160
+    },
+    {
+      "id": "task_1759989449913",
+      "createdAt": "2025-10-09T05:57:29.913Z",
+      "status": "pending",
+      "name": "运动（散步+引体）",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-09",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
     }
   ],
   "shopItems": [
@@ -106,7 +122,7 @@
   },
   "statistics": {
     "tasksCompleted": 0,
-    "tasksCreated": 1,
+    "tasksCreated": 2,
     "coinsEarned": 0,
     "coinsSpent": 0,
     "expGained": 0,
@@ -114,6 +130,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-09T05:56:32.282Z"
+    "lastSave": "2025-10-09T05:57:54.769Z"
   }
 }
