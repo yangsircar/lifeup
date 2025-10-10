@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": -10
+    "totalExp": -90
   },
   "attributes": {
     "physical": {
@@ -22,7 +22,7 @@
     "charm": {
       "name": "魅力",
       "level": 0,
-      "exp": 0,
+      "exp": -80,
       "icon": "bi-star-fill",
       "color": "charm"
     },
@@ -42,13 +42,13 @@
     }
   },
   "resources": {
-    "coins": -20
+    "coins": -180
   },
   "tasks": [
     {
       "id": "task_1759989383426",
       "createdAt": "2025-10-09T05:56:23.426Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点睡觉",
       "attribute": "charm",
       "difficulty": "hard",
@@ -59,7 +59,8 @@
       "expReward": 160,
       "coinReward": 320,
       "expPenalty": 80,
-      "coinPenalty": 160
+      "coinPenalty": 160,
+      "abandonedAt": "2025-10-10T01:00:09.921Z"
     },
     {
       "id": "task_1759989449913",
@@ -94,6 +95,23 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-09T10:57:16.256Z"
+    },
+    {
+      "id": "task_1760058009941",
+      "createdAt": "2025-10-09T05:56:23.426Z",
+      "status": "pending",
+      "name": "晚上十一点睡觉",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-10",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-10-10T01:00:09.921Z"
     }
   ],
   "shopItems": [
@@ -142,12 +160,12 @@
     "tasksCompleted": 0,
     "tasksCreated": 2,
     "coinsEarned": 0,
-    "coinsSpent": 20,
-    "expGained": -10,
+    "coinsSpent": 180,
+    "expGained": -90,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-09T10:57:20.353Z"
+    "lastSave": "2025-10-10T01:00:13.834Z"
   }
 }
