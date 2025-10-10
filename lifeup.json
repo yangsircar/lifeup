@@ -128,6 +128,22 @@
       "coinReward": 640,
       "expPenalty": 160,
       "coinPenalty": 320
+    },
+    {
+      "id": "task_1760060798758",
+      "createdAt": "2025-10-10T01:46:38.758Z",
+      "status": "pending",
+      "name": "html学习",
+      "attribute": "intelligence",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-10",
+      "endDate": "2025-10-30",
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
     }
   ],
   "shopItems": [
@@ -174,7 +190,7 @@
   },
   "statistics": {
     "tasksCompleted": 0,
-    "tasksCreated": 3,
+    "tasksCreated": 4,
     "coinsEarned": 0,
     "coinsSpent": 180,
     "expGained": -90,
@@ -182,6 +198,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-10T01:02:46.042Z"
+    "lastSave": "2025-10-10T01:46:42.198Z"
   }
 }
