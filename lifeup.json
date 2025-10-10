@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 0,
-    "totalExp": -90
+    "totalExp": -70
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 0,
-      "exp": -10,
+      "exp": 10,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": -180
+    "coins": -140
   },
   "tasks": [
     {
@@ -82,7 +82,7 @@
     {
       "id": "task_1760007436330",
       "createdAt": "2025-10-09T05:57:29.913Z",
-      "status": "pending",
+      "status": "completed",
       "name": "运动（散步+引体）",
       "attribute": "physical",
       "difficulty": "medium",
@@ -94,7 +94,8 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-09T10:57:16.256Z"
+      "abandonedAt": "2025-10-09T10:57:16.256Z",
+      "completedAt": "2025-10-10T11:51:20.375Z"
     },
     {
       "id": "task_1760058009941",
@@ -144,6 +145,23 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20
+    },
+    {
+      "id": "task_1760097080410",
+      "createdAt": "2025-10-09T05:57:29.913Z",
+      "status": "pending",
+      "name": "运动（散步+引体）",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-11",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-09T10:57:16.256Z"
     }
   ],
   "shopItems": [
@@ -189,15 +207,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 0,
+    "tasksCompleted": 1,
     "tasksCreated": 4,
-    "coinsEarned": 0,
+    "coinsEarned": 40,
     "coinsSpent": 180,
-    "expGained": -90,
+    "expGained": -70,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-10T01:46:42.198Z"
+    "lastSave": "2025-10-10T11:51:22.167Z"
   }
 }
