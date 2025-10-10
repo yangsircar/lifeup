@@ -112,6 +112,22 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-10-10T01:00:09.921Z"
+    },
+    {
+      "id": "task_1760058130506",
+      "createdAt": "2025-10-10T01:02:10.506Z",
+      "status": "pending",
+      "name": "shencheck",
+      "attribute": "willpower",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "none",
+      "startDate": "2025-10-25",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
     }
   ],
   "shopItems": [
@@ -158,7 +174,7 @@
   },
   "statistics": {
     "tasksCompleted": 0,
-    "tasksCreated": 2,
+    "tasksCreated": 3,
     "coinsEarned": 0,
     "coinsSpent": 180,
     "expGained": -90,
@@ -166,6 +182,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-10T01:00:13.834Z"
+    "lastSave": "2025-10-10T01:02:13.722Z"
   }
 }
