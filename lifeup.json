@@ -1,20 +1,20 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 1,
-    "totalExp": -130
+    "level": 0,
+    "totalExp": 0
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 0,
-      "exp": 10,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
     "intelligence": {
       "name": "智力",
-      "level": 1,
+      "level": 0,
       "exp": 0,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence"
@@ -22,7 +22,7 @@
     "charm": {
       "name": "魅力",
       "level": 0,
-      "exp": -160,
+      "exp": 0,
       "icon": "bi-star-fill",
       "color": "charm"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": -260
+    "coins": -660
   },
   "tasks": [
     {
@@ -150,7 +150,7 @@
     {
       "id": "task_1760097080410",
       "createdAt": "2025-10-09T05:57:29.913Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "运动（散步+引体）",
       "attribute": "physical",
       "difficulty": "medium",
@@ -162,12 +162,12 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-09T10:57:16.256Z"
+      "abandonedAt": "2025-10-13T03:13:47.920Z"
     },
     {
       "id": "task_1760098963655",
       "createdAt": "2025-10-10T01:46:38.758Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "html学习",
       "attribute": "intelligence",
       "difficulty": "medium",
@@ -178,12 +178,13 @@
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
-      "coinPenalty": 20
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-13T03:13:34.760Z"
     },
     {
       "id": "task_1760140361621",
       "createdAt": "2025-10-09T05:56:23.426Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点睡觉",
       "attribute": "charm",
       "difficulty": "hard",
@@ -195,7 +196,109 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-10-10T23:52:41.577Z"
+      "abandonedAt": "2025-10-13T03:13:28.903Z"
+    },
+    {
+      "id": "task_1760325208931",
+      "createdAt": "2025-10-09T05:56:23.426Z",
+      "status": "abandoned",
+      "name": "晚上十一点睡觉",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-12",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-10-13T03:13:31.831Z"
+    },
+    {
+      "id": "task_1760325211854",
+      "createdAt": "2025-10-09T05:56:23.426Z",
+      "status": "pending",
+      "name": "晚上十一点睡觉",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-13",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-10-13T03:13:31.831Z"
+    },
+    {
+      "id": "task_1760325214781",
+      "createdAt": "2025-10-10T01:46:38.758Z",
+      "status": "abandoned",
+      "name": "html学习",
+      "attribute": "intelligence",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-12",
+      "endDate": "2025-10-30",
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-13T03:13:42.047Z"
+    },
+    {
+      "id": "task_1760325222068",
+      "createdAt": "2025-10-10T01:46:38.758Z",
+      "status": "pending",
+      "name": "html学习",
+      "attribute": "intelligence",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-13",
+      "endDate": "2025-10-30",
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-13T03:13:42.047Z"
+    },
+    {
+      "id": "task_1760325227942",
+      "createdAt": "2025-10-09T05:57:29.913Z",
+      "status": "abandoned",
+      "name": "运动（散步+引体）",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-12",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-13T03:13:50.351Z"
+    },
+    {
+      "id": "task_1760325230372",
+      "createdAt": "2025-10-09T05:57:29.913Z",
+      "status": "pending",
+      "name": "运动（散步+引体）",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-13",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-13T03:13:50.351Z"
     }
   ],
   "shopItems": [
@@ -244,12 +347,12 @@
     "tasksCompleted": 2,
     "tasksCreated": 4,
     "coinsEarned": 80,
-    "coinsSpent": 340,
-    "expGained": -130,
+    "coinsSpent": 740,
+    "expGained": -330,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-10T23:52:58.841Z"
+    "lastSave": "2025-10-13T03:14:37.146Z"
   }
 }
