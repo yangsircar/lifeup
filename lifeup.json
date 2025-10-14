@@ -334,20 +334,20 @@
       "coinPenalty": 20
     },
     {
-      "id": "task_1760407849810",
-      "createdAt": "2025-10-14T02:10:49.810Z",
+      "id": "task_1760407901778",
+      "createdAt": "2025-10-14T02:11:41.778Z",
       "status": "pending",
-      "name": "早上试验室项目",
+      "name": "早上试验室+下午脊柱",
       "attribute": "willpower",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "priority": "important_urgent",
       "repeat": "none",
       "startDate": "2025-10-25",
       "endDate": null,
-      "expReward": 40,
-      "coinReward": 80,
-      "expPenalty": 20,
-      "coinPenalty": 40
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160
     }
   ],
   "shopItems": [
@@ -394,7 +394,7 @@
   },
   "statistics": {
     "tasksCompleted": 2,
-    "tasksCreated": 8,
+    "tasksCreated": 9,
     "coinsEarned": 80,
     "coinsSpent": 940,
     "expGained": -430,
@@ -402,6 +402,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-14T02:10:54.450Z"
+    "lastSave": "2025-10-14T02:11:42.946Z"
   }
 }
