@@ -318,23 +318,6 @@
       "abandonedAt": "2025-10-14T00:32:41.408Z"
     },
     {
-      "id": "task_1760401964546",
-      "createdAt": "2025-10-10T01:46:38.758Z",
-      "status": "pending",
-      "name": "html学习",
-      "attribute": "intelligence",
-      "difficulty": "medium",
-      "priority": "important_not_urgent",
-      "repeat": "daily",
-      "startDate": "2025-10-14",
-      "endDate": "2025-10-30",
-      "expReward": 20,
-      "coinReward": 40,
-      "expPenalty": 10,
-      "coinPenalty": 20,
-      "abandonedAt": "2025-10-14T00:32:44.528Z"
-    },
-    {
       "id": "task_1760401966994",
       "createdAt": "2025-10-09T05:56:23.426Z",
       "status": "pending",
@@ -404,6 +387,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-14T00:32:49.595Z"
+    "lastSave": "2025-10-14T01:26:20.863Z"
   }
 }
