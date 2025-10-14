@@ -115,22 +115,6 @@
       "abandonedAt": "2025-10-10T23:52:41.577Z"
     },
     {
-      "id": "task_1760058130506",
-      "createdAt": "2025-10-10T01:02:10.506Z",
-      "status": "pending",
-      "name": "shencheck",
-      "attribute": "willpower",
-      "difficulty": "hell",
-      "priority": "important_urgent",
-      "repeat": "none",
-      "startDate": "2025-10-25",
-      "endDate": null,
-      "expReward": 320,
-      "coinReward": 640,
-      "expPenalty": 160,
-      "coinPenalty": 320
-    },
-    {
       "id": "task_1760060798758",
       "createdAt": "2025-10-10T01:46:38.758Z",
       "status": "completed",
@@ -348,6 +332,22 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20
+    },
+    {
+      "id": "task_1760407849810",
+      "createdAt": "2025-10-14T02:10:49.810Z",
+      "status": "pending",
+      "name": "早上试验室项目",
+      "attribute": "willpower",
+      "difficulty": "easy",
+      "priority": "important_urgent",
+      "repeat": "none",
+      "startDate": "2025-10-25",
+      "endDate": null,
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40
     }
   ],
   "shopItems": [
@@ -394,7 +394,7 @@
   },
   "statistics": {
     "tasksCompleted": 2,
-    "tasksCreated": 6,
+    "tasksCreated": 8,
     "coinsEarned": 80,
     "coinsSpent": 940,
     "expGained": -430,
@@ -402,6 +402,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-14T01:27:49.502Z"
+    "lastSave": "2025-10-14T02:10:54.450Z"
   }
 }
