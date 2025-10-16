@@ -2,15 +2,27 @@
   "character": {
     "name": "冒险者",
     "level": 5,
-    "totalExp": 340
+    "totalExp": 360
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 1,
-      "exp": 0,
+      "exp": 20,
       "icon": "bi-heart-fill",
-      "color": "physical"
+      "color": "physical",
+      "expHistory": [
+        {
+          "date": "2025-10-16",
+          "timestamp": "2025-10-16T11:11:44.294Z",
+          "change": 20,
+          "expBefore": 0,
+          "expAfter": 20,
+          "levelBefore": 1,
+          "levelAfter": 1
+        }
+      ],
+      "levelHistory": []
     },
     "intelligence": {
       "name": "智力",
@@ -42,7 +54,7 @@
     }
   },
   "resources": {
-    "coins": -340
+    "coins": -300
   },
   "tasks": [
     {
@@ -438,13 +450,31 @@
     {
       "id": "task_1760585953079",
       "createdAt": "2025-10-14T01:27:08.590Z",
-      "status": "pending",
+      "status": "completed",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "medium",
       "priority": "important_not_urgent",
       "repeat": "daily",
       "startDate": "2025-10-16",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:13.061Z",
+      "completedAt": "2025-10-16T11:11:44.294Z"
+    },
+    {
+      "id": "task_1760613104325",
+      "createdAt": "2025-10-14T01:27:08.590Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-17",
       "endDate": null,
       "expReward": 20,
       "coinReward": 40,
@@ -496,15 +526,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 5,
+    "tasksCompleted": 6,
     "tasksCreated": 10,
-    "coinsEarned": 800,
+    "coinsEarned": 840,
     "coinsSpent": 1140,
-    "expGained": -170,
+    "expGained": -150,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-16T04:17:32.368Z"
+    "lastSave": "2025-10-16T11:11:47.013Z"
   }
 }
