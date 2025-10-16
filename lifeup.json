@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 1,
-    "totalExp": 40
+    "level": 5,
+    "totalExp": 340
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 1,
-      "exp": 20,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical"
     },
@@ -21,8 +21,8 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 0,
-      "exp": 0,
+      "level": 4,
+      "exp": 20,
       "icon": "bi-star-fill",
       "color": "charm"
     },
@@ -42,7 +42,7 @@
     }
   },
   "resources": {
-    "coins": -940
+    "coins": -340
   },
   "tasks": [
     {
@@ -354,7 +354,7 @@
     {
       "id": "task_1760447311781",
       "createdAt": "2025-10-14T01:27:08.590Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "medium",
@@ -365,12 +365,13 @@
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
-      "coinPenalty": 20
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:13.061Z"
     },
     {
       "id": "task_1760447382367",
       "createdAt": "2025-10-14T01:27:34.342Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -381,12 +382,13 @@
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
-      "coinPenalty": 20
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:10.365Z"
     },
     {
       "id": "task_1760495906827",
       "createdAt": "2025-10-15T02:38:26.827Z",
-      "status": "pending",
+      "status": "completed",
       "name": "晚上十二点睡觉",
       "attribute": "charm",
       "difficulty": "hell",
@@ -397,7 +399,58 @@
       "expReward": 320,
       "coinReward": 640,
       "expPenalty": 160,
+      "coinPenalty": 320,
+      "completedAt": "2025-10-16T03:39:00.070Z"
+    },
+    {
+      "id": "task_1760585940086",
+      "createdAt": "2025-10-15T02:38:26.827Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-16",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
       "coinPenalty": 320
+    },
+    {
+      "id": "task_1760585950383",
+      "createdAt": "2025-10-14T01:27:34.342Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-16",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:10.365Z"
+    },
+    {
+      "id": "task_1760585953079",
+      "createdAt": "2025-10-14T01:27:08.590Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-16",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:13.061Z"
     }
   ],
   "shopItems": [
@@ -443,15 +496,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 4,
+    "tasksCompleted": 5,
     "tasksCreated": 10,
-    "coinsEarned": 160,
-    "coinsSpent": 1100,
-    "expGained": -470,
+    "coinsEarned": 800,
+    "coinsSpent": 1140,
+    "expGained": -170,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-15T02:38:34.188Z"
+    "lastSave": "2025-10-16T03:39:26.691Z"
   }
 }
