@@ -514,6 +514,22 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-16T03:39:10.365Z"
+    },
+    {
+      "id": "task_1760626258810",
+      "createdAt": "2025-10-16T14:50:58.810Z",
+      "status": "pending",
+      "name": "练字10天",
+      "attribute": "willpower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-17",
+      "endDate": "2025-10-28",
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40
     }
   ],
   "shopItems": [
@@ -560,7 +576,7 @@
   },
   "statistics": {
     "tasksCompleted": 7,
-    "tasksCreated": 10,
+    "tasksCreated": 12,
     "coinsEarned": 880,
     "coinsSpent": 1140,
     "expGained": -130,
@@ -568,6 +584,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-16T11:37:47.534Z"
+    "lastSave": "2025-10-16T14:51:06.771Z"
   }
 }
