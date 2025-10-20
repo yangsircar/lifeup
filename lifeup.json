@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 6,
-    "totalExp": 550
+    "level": 7,
+    "totalExp": 730
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 2,
-      "exp": 10,
+      "exp": 30,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -47,12 +47,58 @@
           "expAfter": 10,
           "levelBefore": 2,
           "levelAfter": 2
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:25.182Z",
+          "change": -10,
+          "expBefore": 10,
+          "expAfter": 0,
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:29.510Z",
+          "change": -10,
+          "expBefore": 0,
+          "expAfter": 30,
+          "levelBefore": 2,
+          "levelAfter": 1
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:37.503Z",
+          "change": 20,
+          "expBefore": 30,
+          "expAfter": 10,
+          "levelBefore": 1,
+          "levelAfter": 2
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:41.863Z",
+          "change": 20,
+          "expBefore": 10,
+          "expAfter": 30,
+          "levelBefore": 2,
+          "levelAfter": 2
         }
       ],
       "levelHistory": [
         {
           "date": "2025-10-16",
           "timestamp": "2025-10-16T11:33:24.312Z",
+          "level": 2
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:29.510Z",
+          "level": 1
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:37.503Z",
           "level": 2
         }
       ]
@@ -66,8 +112,8 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 4,
-      "exp": 180,
+      "level": 5,
+      "exp": 20,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -88,6 +134,42 @@
           "expAfter": 180,
           "levelBefore": 5,
           "levelAfter": 4
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:58:55.959Z",
+          "change": -160,
+          "expBefore": 180,
+          "expAfter": 20,
+          "levelBefore": 4,
+          "levelAfter": 4
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:05.647Z",
+          "change": 160,
+          "expBefore": 20,
+          "expAfter": 180,
+          "levelBefore": 4,
+          "levelAfter": 4
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:13.551Z",
+          "change": 320,
+          "expBefore": 180,
+          "expAfter": 180,
+          "levelBefore": 4,
+          "levelAfter": 5
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:19.102Z",
+          "change": -160,
+          "expBefore": 180,
+          "expAfter": 20,
+          "levelBefore": 5,
+          "levelAfter": 5
         }
       ],
       "levelHistory": [
@@ -100,6 +182,11 @@
           "date": "2025-10-18",
           "timestamp": "2025-10-18T12:08:27.051Z",
           "level": 4
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:13.551Z",
+          "level": 5
         }
       ]
     },
@@ -125,13 +212,31 @@
           "expAfter": 0,
           "levelBefore": 0,
           "levelAfter": 0
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:32.078Z",
+          "change": -20,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0
+        },
+        {
+          "date": "2025-10-20",
+          "timestamp": "2025-10-20T03:59:36.006Z",
+          "change": -20,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0
         }
       ],
       "levelHistory": []
     }
   },
   "resources": {
-    "coins": 40
+    "coins": 320
   },
   "tasks": [
     {
@@ -599,7 +704,7 @@
     {
       "id": "task_1760789245555",
       "createdAt": "2025-10-16T14:50:58.810Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "练字10天",
       "attribute": "willpower",
       "difficulty": "hell",
@@ -611,12 +716,12 @@
       "coinReward": 80,
       "expPenalty": 20,
       "coinPenalty": 40,
-      "abandonedAt": "2025-10-18T12:07:25.538Z"
+      "abandonedAt": "2025-10-20T03:59:32.078Z"
     },
     {
       "id": "task_1760789250620",
       "createdAt": "2025-10-14T01:27:08.590Z",
-      "status": "pending",
+      "status": "completed",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "medium",
@@ -628,12 +733,13 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-16T03:39:13.061Z"
+      "abandonedAt": "2025-10-16T03:39:13.061Z",
+      "completedAt": "2025-10-20T03:59:37.503Z"
     },
     {
       "id": "task_1760789253937",
       "createdAt": "2025-10-14T01:27:34.342Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -645,7 +751,7 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-18T12:07:33.921Z"
+      "abandonedAt": "2025-10-20T03:59:25.182Z"
     },
     {
       "id": "task_1760789265270",
@@ -667,7 +773,7 @@
     {
       "id": "task_1760789307064",
       "createdAt": "2025-10-15T02:38:26.827Z",
-      "status": "pending",
+      "status": "completed",
       "name": "晚上十二点睡觉",
       "attribute": "charm",
       "difficulty": "hell",
@@ -679,7 +785,145 @@
       "coinReward": 640,
       "expPenalty": 160,
       "coinPenalty": 320,
-      "abandonedAt": "2025-10-18T12:08:27.051Z"
+      "abandonedAt": "2025-10-20T03:58:55.959Z",
+      "completedAt": "2025-10-20T03:59:13.551Z"
+    },
+    {
+      "id": "task_1760932736009",
+      "createdAt": "2025-10-15T02:38:26.827Z",
+      "status": "abandoned",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-19",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-20T03:59:19.102Z"
+    },
+    {
+      "id": "task_1760932759140",
+      "createdAt": "2025-10-15T02:38:26.827Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-20",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-20T03:59:19.102Z"
+    },
+    {
+      "id": "task_1760932765217",
+      "createdAt": "2025-10-14T01:27:34.342Z",
+      "status": "abandoned",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-19",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-20T03:59:29.510Z"
+    },
+    {
+      "id": "task_1760932769540",
+      "createdAt": "2025-10-14T01:27:34.342Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-20",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-20T03:59:29.510Z"
+    },
+    {
+      "id": "task_1760932772116",
+      "createdAt": "2025-10-16T14:50:58.810Z",
+      "status": "abandoned",
+      "name": "练字10天",
+      "attribute": "willpower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-19",
+      "endDate": "2025-10-28",
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40,
+      "abandonedAt": "2025-10-20T03:59:36.006Z"
+    },
+    {
+      "id": "task_1760932776036",
+      "createdAt": "2025-10-16T14:50:58.810Z",
+      "status": "pending",
+      "name": "练字10天",
+      "attribute": "willpower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-20",
+      "endDate": "2025-10-28",
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40,
+      "abandonedAt": "2025-10-20T03:59:36.006Z"
+    },
+    {
+      "id": "task_1760932777534",
+      "createdAt": "2025-10-14T01:27:08.590Z",
+      "status": "completed",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-19",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:13.061Z",
+      "completedAt": "2025-10-20T03:59:41.863Z"
+    },
+    {
+      "id": "task_1760932781889",
+      "createdAt": "2025-10-14T01:27:08.590Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-20",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-16T03:39:13.061Z"
     }
   ],
   "shopItems": [
@@ -725,15 +969,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 9,
+    "tasksCompleted": 12,
     "tasksCreated": 12,
-    "coinsEarned": 1560,
-    "coinsSpent": 1520,
-    "expGained": 20,
+    "coinsEarned": 2600,
+    "coinsSpent": 2280,
+    "expGained": 160,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-18T12:09:03.870Z"
+    "lastSave": "2025-10-20T04:00:10.016Z"
   }
 }
