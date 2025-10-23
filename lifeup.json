@@ -349,7 +349,7 @@
     }
   },
   "resources": {
-    "coins": 2180
+    "coins": 2158
   },
   "tasks": [
     {
@@ -1284,6 +1284,15 @@
       "quantity": 15,
       "totalPrice": 15,
       "purchasedAt": "2025-09-30T10:58:19.908Z"
+    },
+    {
+      "id": "purchase_1761192902618",
+      "itemId": "item_1759214570101",
+      "itemName": "零食",
+      "price": 1,
+      "quantity": 22,
+      "totalPrice": 22,
+      "purchasedAt": "2025-10-23T04:15:02.618Z"
     }
   ],
   "githubSettings": {
@@ -1295,12 +1304,12 @@
     "tasksCompleted": 18,
     "tasksCreated": 12,
     "coinsEarned": 4640,
-    "coinsSpent": 2460,
+    "coinsSpent": 2482,
     "expGained": 1090,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-23T04:14:46.980Z"
+    "lastSave": "2025-10-23T04:15:12.867Z"
   }
 }
