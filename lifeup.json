@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 8,
-    "totalExp": 1400
+    "totalExp": 1720
   },
   "attributes": {
     "physical": {
@@ -167,7 +167,7 @@
     "charm": {
       "name": "魅力",
       "level": 6,
-      "exp": 20,
+      "exp": 340,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -241,6 +241,15 @@
           "expBefore": 340,
           "expAfter": 20,
           "levelBefore": 5,
+          "levelAfter": 6
+        },
+        {
+          "date": "2025-10-23",
+          "timestamp": "2025-10-23T04:14:42.947Z",
+          "change": 320,
+          "expBefore": 20,
+          "expAfter": 340,
+          "levelBefore": 6,
           "levelAfter": 6
         }
       ],
@@ -325,13 +334,22 @@
           "expAfter": 0,
           "levelBefore": 0,
           "levelAfter": 0
+        },
+        {
+          "date": "2025-10-23",
+          "timestamp": "2025-10-23T04:14:41.243Z",
+          "change": -20,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0
         }
       ],
       "levelHistory": []
     }
   },
   "resources": {
-    "coins": 1580
+    "coins": 2180
   },
   "tasks": [
     {
@@ -1130,7 +1148,7 @@
     {
       "id": "task_1761106720068",
       "createdAt": "2025-10-16T14:50:58.810Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "练字10天",
       "attribute": "willpower",
       "difficulty": "hell",
@@ -1142,12 +1160,12 @@
       "coinReward": 80,
       "expPenalty": 20,
       "coinPenalty": 40,
-      "abandonedAt": "2025-10-22T04:18:40.029Z"
+      "abandonedAt": "2025-10-23T04:14:41.243Z"
     },
     {
       "id": "task_1761106722326",
       "createdAt": "2025-10-15T02:38:26.827Z",
-      "status": "pending",
+      "status": "completed",
       "name": "晚上十二点睡觉",
       "attribute": "charm",
       "difficulty": "hell",
@@ -1159,7 +1177,8 @@
       "coinReward": 640,
       "expPenalty": 160,
       "coinPenalty": 320,
-      "abandonedAt": "2025-10-20T03:59:19.102Z"
+      "abandonedAt": "2025-10-20T03:59:19.102Z",
+      "completedAt": "2025-10-23T04:14:42.947Z"
     },
     {
       "id": "task_1761133531335",
@@ -1194,6 +1213,40 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-22T04:18:37.573Z"
+    },
+    {
+      "id": "task_1761192881281",
+      "createdAt": "2025-10-16T14:50:58.810Z",
+      "status": "pending",
+      "name": "练字10天",
+      "attribute": "willpower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-23",
+      "endDate": "2025-10-28",
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40,
+      "abandonedAt": "2025-10-23T04:14:41.243Z"
+    },
+    {
+      "id": "task_1761192882974",
+      "createdAt": "2025-10-15T02:38:26.827Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-23",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-20T03:59:19.102Z"
     }
   ],
   "shopItems": [
@@ -1239,15 +1292,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 17,
+    "tasksCompleted": 18,
     "tasksCreated": 12,
-    "coinsEarned": 4000,
-    "coinsSpent": 2420,
-    "expGained": 790,
+    "coinsEarned": 4640,
+    "coinsSpent": 2460,
+    "expGained": 1090,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-22T11:45:41.929Z"
+    "lastSave": "2025-10-23T04:14:46.980Z"
   }
 }
