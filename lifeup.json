@@ -1215,23 +1215,6 @@
       "abandonedAt": "2025-10-22T04:18:37.573Z"
     },
     {
-      "id": "task_1761192881281",
-      "createdAt": "2025-10-16T14:50:58.810Z",
-      "status": "pending",
-      "name": "练字10天",
-      "attribute": "willpower",
-      "difficulty": "hell",
-      "priority": "not_important_not_urgent",
-      "repeat": "daily",
-      "startDate": "2025-10-23",
-      "endDate": "2025-10-28",
-      "expReward": 40,
-      "coinReward": 80,
-      "expPenalty": 20,
-      "coinPenalty": 40,
-      "abandonedAt": "2025-10-23T04:14:41.243Z"
-    },
-    {
       "id": "task_1761192882974",
       "createdAt": "2025-10-15T02:38:26.827Z",
       "status": "pending",
@@ -1310,6 +1293,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-23T04:15:12.867Z"
+    "lastSave": "2025-10-23T07:41:57.649Z"
   }
 }
