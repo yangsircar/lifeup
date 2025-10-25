@@ -1377,23 +1377,6 @@
       "completedAt": "2025-10-25T04:23:22.097Z"
     },
     {
-      "id": "task_1761366191512",
-      "createdAt": "2025-10-23T07:54:23.991Z",
-      "status": "pending",
-      "name": "拍摄短视频一次（最好怼脸）",
-      "attribute": "willpower",
-      "difficulty": "hard",
-      "priority": "important_not_urgent",
-      "repeat": "daily",
-      "startDate": "2025-10-25",
-      "endDate": "2025-10-26",
-      "expReward": 40,
-      "coinReward": 80,
-      "expPenalty": 20,
-      "coinPenalty": 40,
-      "abandonedAt": "2025-10-25T04:23:11.480Z"
-    },
-    {
       "id": "task_1761366193020",
       "createdAt": "2025-10-14T01:27:08.590Z",
       "status": "pending",
@@ -1443,6 +1426,28 @@
       "expPenalty": 160,
       "coinPenalty": 320,
       "abandonedAt": "2025-10-24T02:13:00.929Z"
+    },
+    {
+      "id": "task_1761366392032",
+      "createdAt": "2025-10-25T04:26:32.032Z",
+      "status": "pending",
+      "name": "练字15分钟，找视频走捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-25",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
     }
   ],
   "shopItems": [
@@ -1498,7 +1503,7 @@
   },
   "statistics": {
     "tasksCompleted": 23,
-    "tasksCreated": 13,
+    "tasksCreated": 15,
     "coinsEarned": 5760,
     "coinsSpent": 2882,
     "expGained": 1450,
@@ -1506,6 +1511,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-25T04:23:24.674Z"
+    "lastSave": "2025-10-25T04:27:08.608Z"
   }
 }
