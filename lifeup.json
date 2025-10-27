@@ -1696,6 +1696,28 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-27T01:00:13.011Z"
+    },
+    {
+      "id": "task_1761527269197",
+      "createdAt": "2025-10-27T01:07:49.197Z",
+      "status": "pending",
+      "name": "周一练字15分钟，找捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-27",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
     }
   ],
   "shopItems": [
@@ -1751,7 +1773,7 @@
   },
   "statistics": {
     "tasksCompleted": 28,
-    "tasksCreated": 15,
+    "tasksCreated": 16,
     "coinsEarned": 7760,
     "coinsSpent": 3622,
     "expGained": 2080,
@@ -1759,6 +1781,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-27T01:07:16.068Z"
+    "lastSave": "2025-10-27T01:07:54.180Z"
   }
 }
