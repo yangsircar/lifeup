@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 13,
-    "totalExp": 2000
+    "totalExp": 2020
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 3,
-      "exp": 50,
+      "exp": 70,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -258,6 +258,21 @@
             "sourceType": "task",
             "taskId": "task_1761444980466",
             "taskName": "散步",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-10-27",
+          "timestamp": "2025-10-27T13:08:19.489Z",
+          "change": 20,
+          "expBefore": 50,
+          "expAfter": 70,
+          "levelBefore": 3,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761526813034",
+            "taskName": "引体拉伸",
             "action": "完成"
           }
         }
@@ -585,7 +600,7 @@
     }
   },
   "resources": {
-    "coins": 4178
+    "coins": 4218
   },
   "tasks": [
     {
@@ -1699,7 +1714,7 @@
     {
       "id": "task_1761526813034",
       "createdAt": "2025-10-14T01:27:34.342Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -1711,7 +1726,8 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-27T01:00:13.011Z"
+      "abandonedAt": "2025-10-27T01:00:13.011Z",
+      "completedAt": "2025-10-27T13:08:19.489Z"
     },
     {
       "id": "task_1761527269197",
@@ -1751,6 +1767,23 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-26T02:00:17.367Z"
+    },
+    {
+      "id": "task_1761570499520",
+      "createdAt": "2025-10-14T01:27:34.342Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-28",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-27T01:00:13.011Z"
     }
   ],
   "shopItems": [
@@ -1805,15 +1838,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 29,
+    "tasksCompleted": 30,
     "tasksCreated": 16,
-    "coinsEarned": 7800,
+    "coinsEarned": 7840,
     "coinsSpent": 3622,
-    "expGained": 2100,
+    "expGained": 2120,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-27T11:33:40.101Z"
+    "lastSave": "2025-10-27T13:08:21.889Z"
   }
 }
