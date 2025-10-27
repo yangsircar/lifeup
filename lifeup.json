@@ -1594,28 +1594,6 @@
       "completedAt": "2025-10-26T02:00:13.224Z"
     },
     {
-      "id": "task_1761366392032",
-      "createdAt": "2025-10-25T04:26:32.032Z",
-      "status": "pending",
-      "name": "练字15分钟，找视频走捷径15分钟",
-      "attribute": "intelligence",
-      "difficulty": "hell",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-10-25",
-      "endDate": null,
-      "weekdays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "expReward": 320,
-      "coinReward": 640,
-      "expPenalty": 160,
-      "coinPenalty": 320
-    },
-    {
       "id": "task_1761444011098",
       "createdAt": "2025-10-14T01:27:34.342Z",
       "status": "abandoned",
@@ -1781,6 +1759,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-27T01:00:29.477Z"
+    "lastSave": "2025-10-27T01:07:16.068Z"
   }
 }
