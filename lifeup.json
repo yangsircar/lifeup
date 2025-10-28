@@ -1863,6 +1863,29 @@
       "coinReward": 640,
       "expPenalty": 160,
       "coinPenalty": 320
+    },
+    {
+      "id": "task_1761612592825",
+      "createdAt": "2025-10-28T00:49:52.825Z",
+      "status": "pending",
+      "name": "早上刷牙，中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-28",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
     }
   ],
   "shopItems": [
@@ -1918,7 +1941,7 @@
   },
   "statistics": {
     "tasksCompleted": 31,
-    "tasksCreated": 17,
+    "tasksCreated": 18,
     "coinsEarned": 8480,
     "coinsSpent": 3942,
     "expGained": 2280,
@@ -1926,6 +1949,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-28T00:48:45.714Z"
+    "lastSave": "2025-10-28T00:49:58.738Z"
   }
 }
