@@ -1826,28 +1826,6 @@
       "abandonedAt": "2025-10-27T01:00:13.011Z"
     },
     {
-      "id": "task_1761612002049",
-      "createdAt": "2025-10-27T01:07:49.197Z",
-      "status": "pending",
-      "name": "周一练字15分钟，找捷径15分钟",
-      "attribute": "intelligence",
-      "difficulty": "hell",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-11-03",
-      "endDate": null,
-      "weekdays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "expReward": 320,
-      "coinReward": 640,
-      "expPenalty": 160,
-      "coinPenalty": 320
-    },
-    {
       "id": "task_1761612007714",
       "createdAt": "2025-10-15T02:38:26.827Z",
       "status": "pending",
@@ -1863,6 +1841,28 @@
       "expPenalty": 160,
       "coinPenalty": 320,
       "abandonedAt": "2025-10-28T00:40:07.696Z"
+    },
+    {
+      "id": "task_1761612522530",
+      "createdAt": "2025-10-28T00:48:42.530Z",
+      "status": "pending",
+      "name": "练字15分钟，找捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-28",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
     }
   ],
   "shopItems": [
@@ -1918,7 +1918,7 @@
   },
   "statistics": {
     "tasksCompleted": 31,
-    "tasksCreated": 16,
+    "tasksCreated": 17,
     "coinsEarned": 8480,
     "coinsSpent": 3942,
     "expGained": 2280,
@@ -1926,6 +1926,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-28T00:40:11.978Z"
+    "lastSave": "2025-10-28T00:48:45.714Z"
   }
 }
