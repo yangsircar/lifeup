@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 18,
-    "totalExp": 1940
+    "totalExp": 2100
   },
   "attributes": {
     "physical": {
@@ -399,7 +399,7 @@
     "charm": {
       "name": "魅力",
       "level": 7,
-      "exp": 250,
+      "exp": 410,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -612,6 +612,21 @@
             "taskName": "早上刷牙，中午刷牙",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:14:54.586Z",
+          "change": 160,
+          "expBefore": 250,
+          "expAfter": 410,
+          "levelBefore": 7,
+          "levelAfter": 7,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761711288969",
+            "taskName": "早上刷牙，中午刷牙",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -739,7 +754,7 @@
     }
   },
   "resources": {
-    "coins": 4058
+    "coins": 4378
   },
   "tasks": [
     {
@@ -2008,29 +2023,6 @@
       "abandonedAt": "2025-10-26T02:00:17.367Z"
     },
     {
-      "id": "task_1761710747508",
-      "createdAt": "2025-10-28T00:48:42.530Z",
-      "status": "pending",
-      "name": "练字15分钟，找捷径15分钟",
-      "attribute": "intelligence",
-      "difficulty": "hell",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-11-04",
-      "endDate": null,
-      "weekdays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "expReward": 320,
-      "coinReward": 640,
-      "expPenalty": 160,
-      "coinPenalty": 320,
-      "abandonedAt": "2025-10-29T04:05:47.451Z"
-    },
-    {
       "id": "task_1761710752807",
       "createdAt": "2025-10-15T02:38:26.827Z",
       "status": "pending",
@@ -2087,6 +2079,76 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "completedAt": "2025-10-29T04:06:48.356Z"
+    },
+    {
+      "id": "task_1761711257233",
+      "createdAt": "2025-10-29T04:14:17.233Z",
+      "status": "pending",
+      "name": "练字15分钟，找捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
+    },
+    {
+      "id": "task_1761711288969",
+      "createdAt": "2025-10-29T04:14:48.969Z",
+      "status": "completed",
+      "name": "早上刷牙，中午刷牙",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "completedAt": "2025-10-29T04:14:54.585Z"
+    },
+    {
+      "id": "task_1761711294619",
+      "createdAt": "2025-10-29T04:14:48.969Z",
+      "status": "pending",
+      "name": "早上刷牙，中午刷牙",
+      "attribute": "charm",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-30",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160
     }
   ],
   "shopItems": [
@@ -2141,15 +2203,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 33,
-    "tasksCreated": 19,
-    "coinsEarned": 8680,
+    "tasksCompleted": 34,
+    "tasksCreated": 21,
+    "coinsEarned": 9000,
     "coinsSpent": 4622,
-    "expGained": 2040,
+    "expGained": 2200,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-29T04:07:13.542Z"
+    "lastSave": "2025-10-29T04:15:00.114Z"
   }
 }
