@@ -1,18 +1,60 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 1,
-    "totalExp": 0
+    "level": 5,
+    "totalExp": 120
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 0,
-      "exp": 0,
+      "level": 2,
+      "exp": 10,
       "icon": "bi-heart-fill",
       "color": "physical",
-      "expHistory": [],
-      "levelHistory": [],
+      "expHistory": [
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:27:01.587Z",
+          "change": 20,
+          "expBefore": 0,
+          "expAfter": 10,
+          "levelBefore": 0,
+          "levelAfter": 1,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761744284427",
+            "taskName": "散步",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:27:05.347Z",
+          "change": 20,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 1,
+          "levelAfter": 2,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761744228947",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
+        }
+      ],
+      "levelHistory": [
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:27:01.587Z",
+          "level": 1
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:27:05.347Z",
+          "level": 2
+        }
+      ],
       "description": "定义：身体的硬件值。\n内涵：力量、耐力、恢复速度、五感敏锐度。"
     },
     "intelligence": {
@@ -27,12 +69,34 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 0,
-      "exp": 0,
+      "level": 3,
+      "exp": 10,
       "icon": "bi-star-fill",
       "color": "charm",
-      "expHistory": [],
-      "levelHistory": [],
+      "expHistory": [
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:26:57.404Z",
+          "change": 80,
+          "expBefore": 0,
+          "expAfter": 10,
+          "levelBefore": 0,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761744317435",
+            "taskName": "早上刷牙+中午刷牙",
+            "action": "完成"
+          }
+        }
+      ],
+      "levelHistory": [
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T13:26:57.404Z",
+          "level": 3
+        }
+      ],
       "description": "定义：瞬间吸引力与情绪感染力。\n内涵：外貌基础分、第一印象、表达节奏、微表情管理、故事张力、舞台气场。"
     },
     "resource": {
@@ -67,7 +131,7 @@
     }
   },
   "resources": {
-    "coins": 0
+    "coins": 240
   },
   "tasks": [
     {
@@ -95,7 +159,7 @@
     {
       "id": "task_1761744228947",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -112,7 +176,8 @@
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
-      "coinPenalty": 20
+      "coinPenalty": 20,
+      "completedAt": "2025-10-29T13:27:05.347Z"
     },
     {
       "id": "task_1761744259379",
@@ -133,7 +198,7 @@
     {
       "id": "task_1761744284427",
       "createdAt": "2025-10-29T13:24:44.427Z",
-      "status": "pending",
+      "status": "completed",
       "name": "散步",
       "attribute": "physical",
       "difficulty": "medium",
@@ -144,12 +209,13 @@
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
-      "coinPenalty": 20
+      "coinPenalty": 20,
+      "completedAt": "2025-10-29T13:27:01.587Z"
     },
     {
       "id": "task_1761744317435",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙",
       "attribute": "charm",
       "difficulty": "medium",
@@ -160,7 +226,8 @@
       "expReward": 80,
       "coinReward": 160,
       "expPenalty": 40,
-      "coinPenalty": 80
+      "coinPenalty": 80,
+      "completedAt": "2025-10-29T13:26:57.403Z"
     },
     {
       "id": "task_1761744364651",
@@ -181,6 +248,60 @@
       "coinReward": 80,
       "expPenalty": 20,
       "coinPenalty": 40
+    },
+    {
+      "id": "task_1761744417442",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-30",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80
+    },
+    {
+      "id": "task_1761744421624",
+      "createdAt": "2025-10-29T13:24:44.427Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-30",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
+    },
+    {
+      "id": "task_1761744425385",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-30",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
     }
   ],
   "shopItems": [],
@@ -191,15 +312,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 0,
+    "tasksCompleted": 3,
     "tasksCreated": 6,
-    "coinsEarned": 0,
+    "coinsEarned": 240,
     "coinsSpent": 0,
-    "expGained": 0,
+    "expGained": 120,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-29T13:26:07.419Z"
+    "lastSave": "2025-10-29T13:27:15.571Z"
   }
 }
