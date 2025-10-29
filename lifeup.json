@@ -1,1 +1,92 @@
-
+{
+  "character": {
+    "name": "冒险者",
+    "level": 1,
+    "totalExp": 0
+  },
+  "attributes": {
+    "physical": {
+      "name": "体魄",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-heart-fill",
+      "color": "physical",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：身体的硬件值。\n内涵：力量、耐力、恢复速度、五感敏锐度。"
+    },
+    "intelligence": {
+      "name": "智力",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-lightbulb-fill",
+      "color": "intelligence",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：信息处理与建模速度。\n内涵：逻辑、记忆、联想、跨界迁移、元认知（知道自己怎么想）。"
+    },
+    "charm": {
+      "name": "魅力",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-star-fill",
+      "color": "charm",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：瞬间吸引力与情绪感染力。\n内涵：外貌基础分、第一印象、表达节奏、微表情管理、故事张力、舞台气场。"
+    },
+    "resource": {
+      "name": "资源",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-coin",
+      "color": "resource",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：一切可交换、可积累、可杠杆的稀缺资产。\n内涵：现金、股权、数据、版权、时间块、注意力、特权、信用。"
+    },
+    "mentalPower": {
+      "name": "心力",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-shield-fill",
+      "color": "mentalPower",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：心理电池的容量与充放电效率。\n内涵：抗挫带宽、情绪复原、专注深度、自我慈悲、意义感续航。"
+    },
+    "relationship": {
+      "name": "关系",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-people-fill",
+      "color": "relationship",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": "定义：可即时调动的外部大脑与资源池。\n内涵：信任度、多样性、结构洞、互惠接口、信息流速。"
+    }
+  },
+  "resources": {
+    "coins": 0
+  },
+  "tasks": [],
+  "shopItems": [],
+  "purchaseHistory": [],
+  "githubSettings": {
+    "token": "",
+    "repo": "yangsircar/lifeup",
+    "path": "lifeup.json"
+  },
+  "statistics": {
+    "tasksCompleted": 0,
+    "tasksCreated": 0,
+    "coinsEarned": 0,
+    "coinsSpent": 0,
+    "expGained": 0,
+    "weeklyData": {},
+    "monthlyData": {}
+  },
+  "settings": {
+    "lastSave": "2025-10-29T13:21:38.045Z"
+  }
+}
