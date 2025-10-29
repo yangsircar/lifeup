@@ -69,7 +69,120 @@
   "resources": {
     "coins": 0
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "task_1761744190484",
+      "createdAt": "2025-10-29T13:23:10.484Z",
+      "status": "pending",
+      "name": "练字15分钟，找捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160
+    },
+    {
+      "id": "task_1761744228947",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
+    },
+    {
+      "id": "task_1761744259379",
+      "createdAt": "2025-10-29T13:24:19.379Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320
+    },
+    {
+      "id": "task_1761744284427",
+      "createdAt": "2025-10-29T13:24:44.427Z",
+      "status": "pending",
+      "name": "散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20
+    },
+    {
+      "id": "task_1761744317435",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80
+    },
+    {
+      "id": "task_1761744364651",
+      "createdAt": "2025-10-29T13:26:04.651Z",
+      "status": "pending",
+      "name": "维生素",
+      "attribute": "physical",
+      "difficulty": "easy",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        4
+      ],
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40
+    }
+  ],
   "shopItems": [],
   "purchaseHistory": [],
   "githubSettings": {
@@ -79,7 +192,7 @@
   },
   "statistics": {
     "tasksCompleted": 0,
-    "tasksCreated": 0,
+    "tasksCreated": 6,
     "coinsEarned": 0,
     "coinsSpent": 0,
     "expGained": 0,
@@ -87,6 +200,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-29T13:21:38.045Z"
+    "lastSave": "2025-10-29T13:26:07.419Z"
   }
 }
