@@ -669,33 +669,6 @@
     },
     "mentalPower": {
       "name": "心力",
-      "level": 0,
-      "exp": 0,
-      "icon": "bi-shield-fill",
-      "color": "mentalPower",
-      "expHistory": [],
-      "levelHistory": [],
-      "description": ""
-    },
-    "relationship": {
-      "name": "关系",
-      "level": 0,
-      "exp": 0,
-      "icon": "bi-people-fill",
-      "color": "relationship",
-      "expHistory": [],
-      "levelHistory": [],
-      "description": ""
-    },
-    "wealth": {
-      "name": "财富",
-      "level": 0,
-      "exp": 0,
-      "icon": "bi-coin",
-      "color": "resource"
-    },
-    "willpower": {
-      "name": "意志",
       "level": 3,
       "exp": 40,
       "icon": "bi-shield-fill",
@@ -780,7 +753,18 @@
           "timestamp": "2025-10-25T04:23:04.849Z",
           "level": 3
         }
-      ]
+      ],
+      "description": ""
+    },
+    "relationship": {
+      "name": "关系",
+      "level": 0,
+      "exp": 0,
+      "icon": "bi-people-fill",
+      "color": "relationship",
+      "expHistory": [],
+      "levelHistory": [],
+      "description": ""
     }
   },
   "resources": {
@@ -2242,6 +2226,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-29T12:20:33.649Z"
+    "lastSave": "2025-10-29T12:35:53.099Z"
   }
 }
