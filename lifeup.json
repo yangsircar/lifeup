@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 19,
-    "totalExp": 2190
+    "level": 18,
+    "totalExp": 1940
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 4,
-      "exp": 10,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -290,6 +290,21 @@
             "taskName": "散步",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:05:57.420Z",
+          "change": -10,
+          "expBefore": 10,
+          "expAfter": 0,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761570499520",
+            "taskName": "引体拉伸",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -332,7 +347,7 @@
     },
     "intelligence": {
       "name": "智力",
-      "level": 5,
+      "level": 4,
       "exp": 10,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
@@ -351,6 +366,21 @@
             "taskName": "周一练字15分钟，找捷径15分钟",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:05:47.451Z",
+          "change": -160,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 5,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761612522530",
+            "taskName": "练字15分钟，找捷径15分钟",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -358,13 +388,18 @@
           "date": "2025-10-28",
           "timestamp": "2025-10-28T00:40:02.033Z",
           "level": 5
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:05:47.451Z",
+          "level": 4
         }
       ]
     },
     "charm": {
       "name": "魅力",
       "level": 7,
-      "exp": 330,
+      "exp": 250,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -547,6 +582,36 @@
             "taskName": "早上刷牙，中午刷牙",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:05:52.714Z",
+          "change": -160,
+          "expBefore": 330,
+          "expAfter": 170,
+          "levelBefore": 7,
+          "levelAfter": 7,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761612007714",
+            "taskName": "晚上十二点睡觉",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-10-29",
+          "timestamp": "2025-10-29T04:06:48.356Z",
+          "change": 80,
+          "expBefore": 170,
+          "expAfter": 250,
+          "levelBefore": 7,
+          "levelAfter": 7,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761710801067",
+            "taskName": "早上刷牙，中午刷牙",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -674,7 +739,7 @@
     }
   },
   "resources": {
-    "coins": 4558
+    "coins": 4058
   },
   "tasks": [
     {
@@ -1847,7 +1912,7 @@
     {
       "id": "task_1761570499520",
       "createdAt": "2025-10-14T01:27:34.342Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -1859,12 +1924,12 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-10-27T01:00:13.011Z"
+      "abandonedAt": "2025-10-29T04:05:57.420Z"
     },
     {
       "id": "task_1761612007714",
       "createdAt": "2025-10-15T02:38:26.827Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十二点睡觉",
       "attribute": "charm",
       "difficulty": "hell",
@@ -1876,12 +1941,12 @@
       "coinReward": 640,
       "expPenalty": 160,
       "coinPenalty": 320,
-      "abandonedAt": "2025-10-28T00:40:07.696Z"
+      "abandonedAt": "2025-10-29T04:05:52.714Z"
     },
     {
       "id": "task_1761612522530",
       "createdAt": "2025-10-28T00:48:42.530Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "练字15分钟，找捷径15分钟",
       "attribute": "intelligence",
       "difficulty": "hell",
@@ -1898,7 +1963,8 @@
       "expReward": 320,
       "coinReward": 640,
       "expPenalty": 160,
-      "coinPenalty": 320
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-29T04:05:47.451Z"
     },
     {
       "id": "task_1761612592825",
@@ -1910,30 +1976,6 @@
       "priority": "important_not_urgent",
       "repeat": "weekly",
       "startDate": "2025-10-28",
-      "endDate": null,
-      "weekdays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "expReward": 20,
-      "coinReward": 40,
-      "expPenalty": 10,
-      "coinPenalty": 20,
-      "abandonedAt": "2025-10-28T12:45:34.675Z"
-    },
-    {
-      "id": "task_1761655534744",
-      "createdAt": "2025-10-28T00:49:52.825Z",
-      "status": "pending",
-      "name": "早上刷牙，中午刷牙",
-      "attribute": "charm",
-      "difficulty": "medium",
-      "priority": "important_not_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-11-04",
       "endDate": null,
       "weekdays": [
         1,
@@ -1964,6 +2006,87 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-10-26T02:00:17.367Z"
+    },
+    {
+      "id": "task_1761710747508",
+      "createdAt": "2025-10-28T00:48:42.530Z",
+      "status": "pending",
+      "name": "练字15分钟，找捷径15分钟",
+      "attribute": "intelligence",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-04",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-29T04:05:47.451Z"
+    },
+    {
+      "id": "task_1761710752807",
+      "createdAt": "2025-10-15T02:38:26.827Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-29T04:05:52.714Z"
+    },
+    {
+      "id": "task_1761710757500",
+      "createdAt": "2025-10-14T01:27:34.342Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-10-29T04:05:57.420Z"
+    },
+    {
+      "id": "task_1761710801067",
+      "createdAt": "2025-10-29T04:06:41.067Z",
+      "status": "completed",
+      "name": "早上刷牙，中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-10-29",
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "completedAt": "2025-10-29T04:06:48.356Z"
     }
   ],
   "shopItems": [
@@ -2018,15 +2141,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 32,
-    "tasksCreated": 18,
-    "coinsEarned": 8520,
-    "coinsSpent": 3962,
-    "expGained": 2290,
+    "tasksCompleted": 33,
+    "tasksCreated": 19,
+    "coinsEarned": 8680,
+    "coinsSpent": 4622,
+    "expGained": 2040,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-28T12:45:49.467Z"
+    "lastSave": "2025-10-29T04:07:13.542Z"
   }
 }
