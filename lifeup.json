@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 5,
-    "totalExp": 120
+    "level": 2,
+    "totalExp": 40
   },
   "attributes": {
     "physical": {
@@ -69,8 +69,8 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 3,
-      "exp": 10,
+      "level": 0,
+      "exp": 0,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -88,6 +88,36 @@
             "taskName": "早上刷牙+中午刷牙",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-10-30",
+          "timestamp": "2025-10-30T11:55:28.144Z",
+          "change": 80,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 3,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761744417442",
+            "taskName": "早上刷牙+中午刷牙",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-10-30",
+          "timestamp": "2025-10-30T11:55:37.096Z",
+          "change": -160,
+          "expBefore": 10,
+          "expAfter": 0,
+          "levelBefore": 4,
+          "levelAfter": 0,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1761744259379",
+            "taskName": "晚上十二点睡觉",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -95,6 +125,16 @@
           "date": "2025-10-29",
           "timestamp": "2025-10-29T13:26:57.404Z",
           "level": 3
+        },
+        {
+          "date": "2025-10-30",
+          "timestamp": "2025-10-30T11:55:28.144Z",
+          "level": 4
+        },
+        {
+          "date": "2025-10-30",
+          "timestamp": "2025-10-30T11:55:37.096Z",
+          "level": 0
         }
       ],
       "description": "定义：瞬间吸引力与情绪感染力。\n内涵：外貌基础分、第一印象、表达节奏、微表情管理、故事张力、舞台气场。"
@@ -131,7 +171,7 @@
     }
   },
   "resources": {
-    "coins": 240
+    "coins": 80
   },
   "tasks": [
     {
@@ -182,7 +222,7 @@
     {
       "id": "task_1761744259379",
       "createdAt": "2025-10-29T13:24:19.379Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十二点睡觉",
       "attribute": "charm",
       "difficulty": "hell",
@@ -193,7 +233,8 @@
       "expReward": 320,
       "coinReward": 640,
       "expPenalty": 160,
-      "coinPenalty": 320
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-30T11:55:37.095Z"
     },
     {
       "id": "task_1761744284427",
@@ -252,7 +293,7 @@
     {
       "id": "task_1761744417442",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙",
       "attribute": "charm",
       "difficulty": "medium",
@@ -263,7 +304,8 @@
       "expReward": 80,
       "coinReward": 160,
       "expPenalty": 40,
-      "coinPenalty": 80
+      "coinPenalty": 80,
+      "completedAt": "2025-10-30T11:55:28.144Z"
     },
     {
       "id": "task_1761744421624",
@@ -302,6 +344,39 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20
+    },
+    {
+      "id": "task_1761825328177",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-31",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80
+    },
+    {
+      "id": "task_1761825337138",
+      "createdAt": "2025-10-29T13:24:19.379Z",
+      "status": "pending",
+      "name": "晚上十二点睡觉",
+      "attribute": "charm",
+      "difficulty": "hell",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-10-30",
+      "endDate": null,
+      "expReward": 320,
+      "coinReward": 640,
+      "expPenalty": 160,
+      "coinPenalty": 320,
+      "abandonedAt": "2025-10-30T11:55:37.095Z"
     }
   ],
   "shopItems": [],
@@ -312,15 +387,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 3,
+    "tasksCompleted": 4,
     "tasksCreated": 6,
-    "coinsEarned": 240,
-    "coinsSpent": 0,
-    "expGained": 120,
+    "coinsEarned": 400,
+    "coinsSpent": 320,
+    "expGained": 40,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-29T13:27:15.571Z"
+    "lastSave": "2025-10-30T11:55:51.969Z"
   }
 }
