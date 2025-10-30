@@ -308,22 +308,6 @@
       "completedAt": "2025-10-30T11:55:28.144Z"
     },
     {
-      "id": "task_1761744421624",
-      "createdAt": "2025-10-29T13:24:44.427Z",
-      "status": "pending",
-      "name": "散步",
-      "attribute": "physical",
-      "difficulty": "medium",
-      "priority": "important_not_urgent",
-      "repeat": "daily",
-      "startDate": "2025-10-30",
-      "endDate": null,
-      "expReward": 20,
-      "coinReward": 40,
-      "expPenalty": 10,
-      "coinPenalty": 20
-    },
-    {
       "id": "task_1761744425385",
       "createdAt": "2025-10-29T13:23:48.947Z",
       "status": "pending",
@@ -396,6 +380,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-30T11:55:51.969Z"
+    "lastSave": "2025-10-30T14:09:19.355Z"
   }
 }
