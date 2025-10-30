@@ -320,7 +320,16 @@
       "coinPenalty": 160
     }
   ],
-  "shopItems": [],
+  "shopItems": [
+    {
+      "id": "item_1761833871890",
+      "createdAt": "2025-10-30T14:17:51.890Z",
+      "name": "iPhone 17国行 256（国补）",
+      "description": "",
+      "price": 5499,
+      "image": "gift"
+    }
+  ],
   "purchaseHistory": [],
   "githubSettings": {
     "token": "",
@@ -337,6 +346,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-30T14:12:12.227Z"
+    "lastSave": "2025-10-30T14:17:55.633Z"
   }
 }
