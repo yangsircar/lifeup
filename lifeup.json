@@ -175,28 +175,6 @@
   },
   "tasks": [
     {
-      "id": "task_1761744190484",
-      "createdAt": "2025-10-29T13:23:10.484Z",
-      "status": "pending",
-      "name": "练字15分钟，找捷径15分钟",
-      "attribute": "intelligence",
-      "difficulty": "hard",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-10-29",
-      "endDate": null,
-      "weekdays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "expReward": 160,
-      "coinReward": 320,
-      "expPenalty": 80,
-      "coinPenalty": 160
-    },
-    {
       "id": "task_1761744228947",
       "createdAt": "2025-10-29T13:23:48.947Z",
       "status": "completed",
@@ -271,26 +249,6 @@
       "completedAt": "2025-10-29T13:26:57.403Z"
     },
     {
-      "id": "task_1761744364651",
-      "createdAt": "2025-10-29T13:26:04.651Z",
-      "status": "pending",
-      "name": "维生素",
-      "attribute": "physical",
-      "difficulty": "easy",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-10-29",
-      "endDate": null,
-      "weekdays": [
-        1,
-        4
-      ],
-      "expReward": 40,
-      "coinReward": 80,
-      "expPenalty": 20,
-      "coinPenalty": 40
-    },
-    {
       "id": "task_1761744417442",
       "createdAt": "2025-10-29T13:25:17.435Z",
       "status": "completed",
@@ -346,21 +304,20 @@
       "coinPenalty": 80
     },
     {
-      "id": "task_1761825337138",
-      "createdAt": "2025-10-29T13:24:19.379Z",
+      "id": "task_1761833515466",
+      "createdAt": "2025-10-30T14:11:55.466Z",
       "status": "pending",
       "name": "晚上十二点睡觉",
-      "attribute": "charm",
-      "difficulty": "hell",
+      "attribute": "intelligence",
+      "difficulty": "hard",
       "priority": "important_urgent",
       "repeat": "daily",
       "startDate": "2025-10-30",
       "endDate": null,
-      "expReward": 320,
-      "coinReward": 640,
-      "expPenalty": 160,
-      "coinPenalty": 320,
-      "abandonedAt": "2025-10-30T11:55:37.095Z"
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160
     }
   ],
   "shopItems": [],
@@ -372,7 +329,7 @@
   },
   "statistics": {
     "tasksCompleted": 4,
-    "tasksCreated": 6,
+    "tasksCreated": 7,
     "coinsEarned": 400,
     "coinsSpent": 320,
     "expGained": 40,
@@ -380,6 +337,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-10-30T14:09:19.355Z"
+    "lastSave": "2025-10-30T14:12:12.227Z"
   }
 }
