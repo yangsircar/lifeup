@@ -732,6 +732,14 @@
       "description": "",
       "price": 5499,
       "image": "gift"
+    },
+    {
+      "id": "item_1762176885649",
+      "createdAt": "2025-11-03T13:34:45.649Z",
+      "name": "NAS 双盘",
+      "description": "4T*2",
+      "price": 2500,
+      "image": "gift"
     }
   ],
   "purchaseHistory": [],
@@ -750,6 +758,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-03T13:29:25.243Z"
+    "lastSave": "2025-11-03T13:34:48.377Z"
   }
 }
