@@ -706,6 +706,22 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-03T11:54:50.428Z"
+    },
+    {
+      "id": "task_1762176555506",
+      "createdAt": "2025-11-03T13:29:15.506Z",
+      "status": "pending",
+      "name": "直播露脸",
+      "attribute": "mentalPower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-11-12",
+      "endDate": "2025-11-12",
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40
     }
   ],
   "shopItems": [
@@ -726,7 +742,7 @@
   },
   "statistics": {
     "tasksCompleted": 7,
-    "tasksCreated": 7,
+    "tasksCreated": 8,
     "coinsEarned": 1200,
     "coinsSpent": 880,
     "expGained": 160,
@@ -734,6 +750,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-03T11:56:21.845Z"
+    "lastSave": "2025-11-03T13:29:25.243Z"
   }
 }
