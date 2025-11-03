@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 5,
-    "totalExp": 320
+    "totalExp": 325
   },
   "attributes": {
     "physical": {
@@ -354,10 +354,26 @@
     "mentalPower": {
       "name": "心力",
       "level": 0,
-      "exp": 0,
+      "exp": 5,
       "icon": "bi-shield-fill",
       "color": "mentalPower",
-      "expHistory": [],
+      "expHistory": [
+        {
+          "date": "2025-11-03",
+          "timestamp": "2025-11-03T13:53:05.167Z",
+          "change": 5,
+          "expBefore": 0,
+          "expAfter": 5,
+          "levelBefore": 0,
+          "levelAfter": 0,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762177502240",
+            "taskName": "整理衣柜，打扫房间",
+            "action": "完成"
+          }
+        }
+      ],
       "levelHistory": [],
       "description": "定义：心理电池的容量与充放电效率。\n内涵：抗挫带宽、情绪复原、专注深度、自我慈悲、意义感续航。"
     },
@@ -373,7 +389,7 @@
     }
   },
   "resources": {
-    "coins": 320
+    "coins": 330
   },
   "tasks": [
     {
@@ -722,6 +738,23 @@
       "coinReward": 80,
       "expPenalty": 20,
       "coinPenalty": 40
+    },
+    {
+      "id": "task_1762177502240",
+      "createdAt": "2025-11-03T13:45:02.240Z",
+      "status": "completed",
+      "name": "整理衣柜，打扫房间",
+      "attribute": "mentalPower",
+      "difficulty": "easy",
+      "priority": "not_important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-11-03",
+      "endDate": null,
+      "expReward": 5,
+      "coinReward": 10,
+      "expPenalty": 3,
+      "coinPenalty": 5,
+      "completedAt": "2025-11-03T13:53:05.167Z"
     }
   ],
   "shopItems": [
@@ -749,15 +782,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 7,
-    "tasksCreated": 8,
-    "coinsEarned": 1200,
+    "tasksCompleted": 8,
+    "tasksCreated": 9,
+    "coinsEarned": 1210,
     "coinsSpent": 880,
-    "expGained": 160,
+    "expGained": 165,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-03T13:34:48.377Z"
+    "lastSave": "2025-11-03T13:53:06.775Z"
   }
 }
