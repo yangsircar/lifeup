@@ -1,13 +1,13 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 8,
-    "totalExp": 385
+    "level": 9,
+    "totalExp": 405
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 1,
+      "level": 2,
       "exp": 10,
       "icon": "bi-heart-fill",
       "color": "physical",
@@ -116,6 +116,21 @@
             "taskName": "引体拉伸",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-04",
+          "timestamp": "2025-11-04T12:46:02.680Z",
+          "change": 20,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 1,
+          "levelAfter": 2,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762180399484",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -143,6 +158,11 @@
           "date": "2025-11-03",
           "timestamp": "2025-11-03T14:33:19.454Z",
           "level": 1
+        },
+        {
+          "date": "2025-11-04",
+          "timestamp": "2025-11-04T12:46:02.680Z",
+          "level": 2
         }
       ],
       "description": "定义：身体的硬件值。\n内涵：力量、耐力、恢复速度、五感敏锐度。"
@@ -479,7 +499,7 @@
     }
   },
   "resources": {
-    "coins": 370
+    "coins": 410
   },
   "tasks": [
     {
@@ -850,7 +870,7 @@
     {
       "id": "task_1762180399484",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -862,7 +882,8 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-03T11:53:38.349Z"
+      "abandonedAt": "2025-11-03T11:53:38.349Z",
+      "completedAt": "2025-11-04T12:46:02.680Z"
     },
     {
       "id": "task_1762180405650",
@@ -932,6 +953,23 @@
       "expPenalty": 20,
       "coinPenalty": 40,
       "completedAt": "2025-11-04T12:33:58.676Z"
+    },
+    {
+      "id": "task_1762260362721",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-05",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-03T11:53:38.349Z"
     }
   ],
   "shopItems": [
@@ -967,15 +1005,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 11,
+    "tasksCompleted": 12,
     "tasksCreated": 10,
-    "coinsEarned": 1490,
+    "coinsEarned": 1530,
     "coinsSpent": 1120,
-    "expGained": 185,
+    "expGained": 205,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-04T12:34:00.564Z"
+    "lastSave": "2025-11-04T12:46:07.008Z"
   }
 }
