@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 8,
-    "totalExp": 345
+    "totalExp": 385
   },
   "attributes": {
     "physical": {
@@ -150,7 +150,7 @@
     "intelligence": {
       "name": "智力",
       "level": 4,
-      "exp": 90,
+      "exp": 130,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -227,6 +227,21 @@
             "taskId": "task_1762170880948",
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-04",
+          "timestamp": "2025-11-04T12:33:58.677Z",
+          "change": 40,
+          "expBefore": 90,
+          "expAfter": 130,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762258325887",
+            "taskName": "制作一段2分钟长的视频，口述",
+            "action": "完成"
           }
         }
       ],
@@ -464,7 +479,7 @@
     }
   },
   "resources": {
-    "coins": 290
+    "coins": 370
   },
   "tasks": [
     {
@@ -900,6 +915,23 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-03T14:33:25.613Z"
+    },
+    {
+      "id": "task_1762258325887",
+      "createdAt": "2025-11-04T12:12:05.887Z",
+      "status": "completed",
+      "name": "制作一段2分钟长的视频，口述",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_not_urgent",
+      "repeat": "none",
+      "startDate": "2025-11-04",
+      "endDate": null,
+      "expReward": 40,
+      "coinReward": 80,
+      "expPenalty": 20,
+      "coinPenalty": 40,
+      "completedAt": "2025-11-04T12:33:58.676Z"
     }
   ],
   "shopItems": [
@@ -935,15 +967,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 10,
-    "tasksCreated": 9,
-    "coinsEarned": 1410,
+    "tasksCompleted": 11,
+    "tasksCreated": 10,
+    "coinsEarned": 1490,
     "coinsSpent": 1120,
-    "expGained": 145,
+    "expGained": 185,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-04T11:55:52.531Z"
+    "lastSave": "2025-11-04T12:34:00.564Z"
   }
 }
