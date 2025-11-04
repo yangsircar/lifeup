@@ -918,6 +918,14 @@
       "description": "4T*2",
       "price": 2500,
       "image": "gift"
+    },
+    {
+      "id": "item_1762257351115",
+      "createdAt": "2025-11-04T11:55:51.115Z",
+      "name": "2.0音箱",
+      "description": "",
+      "price": 599,
+      "image": "gift"
     }
   ],
   "purchaseHistory": [],
@@ -936,6 +944,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-04T10:59:31.342Z"
+    "lastSave": "2025-11-04T11:55:52.531Z"
   }
 }
