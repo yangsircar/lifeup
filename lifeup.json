@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 10,
-    "totalExp": 565
+    "level": 11,
+    "totalExp": 665
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 2,
-      "exp": 10,
+      "exp": 30,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -128,6 +128,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1762180399484",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-11-05",
+          "timestamp": "2025-11-05T11:40:05.249Z",
+          "change": 20,
+          "expBefore": 10,
+          "expAfter": 30,
+          "levelBefore": 2,
+          "levelAfter": 2,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762260362721",
             "taskName": "引体拉伸",
             "action": "完成"
           }
@@ -306,7 +321,7 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 3,
+      "level": 4,
       "exp": 10,
       "icon": "bi-star-fill",
       "color": "charm",
@@ -430,6 +445,21 @@
             "taskName": "早上刷牙+中午刷牙",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-05",
+          "timestamp": "2025-11-05T11:39:59.658Z",
+          "change": 80,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 3,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762253965088",
+            "taskName": "早上刷牙+中午刷牙",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -467,6 +497,11 @@
           "date": "2025-11-04",
           "timestamp": "2025-11-04T10:59:25.055Z",
           "level": 3
+        },
+        {
+          "date": "2025-11-05",
+          "timestamp": "2025-11-05T11:39:59.658Z",
+          "level": 4
         }
       ],
       "description": "定义：瞬间吸引力与情绪感染力。\n内涵：外貌基础分、第一印象、表达节奏、微表情管理、故事张力、舞台气场。"
@@ -519,7 +554,7 @@
     }
   },
   "resources": {
-    "coins": 730
+    "coins": 930
   },
   "tasks": [
     {
@@ -944,7 +979,7 @@
     {
       "id": "task_1762253965088",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙",
       "attribute": "charm",
       "difficulty": "medium",
@@ -956,7 +991,8 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-03T14:33:25.613Z"
+      "abandonedAt": "2025-11-03T14:33:25.613Z",
+      "completedAt": "2025-11-05T11:39:59.657Z"
     },
     {
       "id": "task_1762258325887",
@@ -978,7 +1014,7 @@
     {
       "id": "task_1762260362721",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -990,7 +1026,8 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-03T11:53:38.349Z"
+      "abandonedAt": "2025-11-03T11:53:38.349Z",
+      "completedAt": "2025-11-05T11:40:05.249Z"
     },
     {
       "id": "task_1762312221222",
@@ -1008,6 +1045,40 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-04T04:23:26.342Z"
+    },
+    {
+      "id": "task_1762342799692",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-06",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-03T14:33:25.613Z"
+    },
+    {
+      "id": "task_1762342805278",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-06",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-03T11:53:38.349Z"
     }
   ],
   "shopItems": [
@@ -1043,15 +1114,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 13,
+    "tasksCompleted": 15,
     "tasksCreated": 10,
-    "coinsEarned": 1850,
+    "coinsEarned": 2050,
     "coinsSpent": 1120,
-    "expGained": 365,
+    "expGained": 465,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-05T03:10:27.662Z"
+    "lastSave": "2025-11-05T11:40:08.858Z"
   }
 }
