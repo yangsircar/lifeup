@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 12,
-    "totalExp": 685
+    "level": 15,
+    "totalExp": 765
   },
   "attributes": {
     "physical": {
@@ -568,8 +568,8 @@
     },
     "mentalPower": {
       "name": "心力",
-      "level": 0,
-      "exp": 5,
+      "level": 3,
+      "exp": 15,
       "icon": "bi-shield-fill",
       "color": "mentalPower",
       "expHistory": [
@@ -587,9 +587,30 @@
             "taskName": "整理衣柜，打扫房间",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-06",
+          "timestamp": "2025-11-06T15:50:23.866Z",
+          "change": 80,
+          "expBefore": 5,
+          "expAfter": 15,
+          "levelBefore": 0,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762442409701",
+            "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+            "action": "完成"
+          }
         }
       ],
-      "levelHistory": [],
+      "levelHistory": [
+        {
+          "date": "2025-11-06",
+          "timestamp": "2025-11-06T15:50:23.866Z",
+          "level": 3
+        }
+      ],
       "description": "定义：心理电池的容量与充放电效率。\n内涵：抗挫带宽、情绪复原、专注深度、自我慈悲、意义感续航。"
     },
     "relationship": {
@@ -604,7 +625,7 @@
     }
   },
   "resources": {
-    "coins": 970
+    "coins": 1130
   },
   "tasks": [
     {
@@ -1186,13 +1207,30 @@
     {
       "id": "task_1762442409701",
       "createdAt": "2025-11-06T15:20:09.701Z",
-      "status": "pending",
+      "status": "completed",
       "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
       "attribute": "mentalPower",
       "difficulty": "medium",
       "priority": "important_urgent",
       "repeat": "daily",
       "startDate": "2025-11-06",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "completedAt": "2025-11-06T15:50:23.866Z"
+    },
+    {
+      "id": "task_1762444223907",
+      "createdAt": "2025-11-06T15:20:09.701Z",
+      "status": "pending",
+      "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-07",
       "endDate": null,
       "expReward": 80,
       "coinReward": 160,
@@ -1253,15 +1291,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 17,
+    "tasksCompleted": 18,
     "tasksCreated": 11,
-    "coinsEarned": 2250,
+    "coinsEarned": 2410,
     "coinsSpent": 1280,
-    "expGained": 485,
+    "expGained": 565,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-06T15:50:23.864Z"
+    "lastSave": "2025-11-06T15:50:40.832Z"
   }
 }
