@@ -1182,6 +1182,22 @@
       "expPenalty": 10,
       "coinPenalty": 20,
       "abandonedAt": "2025-11-03T11:53:38.349Z"
+    },
+    {
+      "id": "task_1762442409701",
+      "createdAt": "2025-11-06T15:20:09.701Z",
+      "status": "pending",
+      "name": "探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-06",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80
     }
   ],
   "shopItems": [
@@ -1218,7 +1234,7 @@
   },
   "statistics": {
     "tasksCompleted": 17,
-    "tasksCreated": 10,
+    "tasksCreated": 11,
     "coinsEarned": 2250,
     "coinsSpent": 1280,
     "expGained": 485,
@@ -1226,6 +1242,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-06T14:32:54.551Z"
+    "lastSave": "2025-11-06T15:20:21.990Z"
   }
 }
