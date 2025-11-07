@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 14,
-    "totalExp": 685
+    "totalExp": 645
   },
   "attributes": {
     "physical": {
@@ -377,7 +377,7 @@
     "charm": {
       "name": "魅力",
       "level": 4,
-      "exp": 90,
+      "exp": 50,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -530,6 +530,21 @@
             "taskName": "早上刷牙+中午刷牙",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-07",
+          "timestamp": "2025-11-07T07:57:27.635Z",
+          "change": -40,
+          "expBefore": 90,
+          "expAfter": 50,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762439091467",
+            "taskName": "早上刷牙+中午刷牙",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -645,7 +660,7 @@
     }
   },
   "resources": {
-    "coins": 970
+    "coins": 890
   },
   "tasks": [
     {
@@ -1193,7 +1208,7 @@
     {
       "id": "task_1762439091467",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "早上刷牙+中午刷牙",
       "attribute": "charm",
       "difficulty": "medium",
@@ -1205,7 +1220,7 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-03T14:33:25.613Z"
+      "abandonedAt": "2025-11-07T07:57:27.635Z"
     },
     {
       "id": "task_1762439571015",
@@ -1273,6 +1288,23 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-07T01:04:16.378Z"
+    },
+    {
+      "id": "task_1762502247658",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-08",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-07T07:57:27.635Z"
     }
   ],
   "growthLogs": [
@@ -1329,6 +1361,24 @@
       "repeat": "daily",
       "startDate": "2025-11-07",
       "endDate": null
+    },
+    {
+      "id": "gl_1762502315659",
+      "time": "2025-11-07T07:58:35.659Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "白天看了路透社的文章，纯英文，利用工具辅助。感觉不错，看了两篇的前半部分，纯英文阅读是不一样，感觉理解的更深入",
+      "taskId": "task_1762444223907",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-07",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -1375,12 +1425,12 @@
     "tasksCompleted": 18,
     "tasksCreated": 11,
     "coinsEarned": 2410,
-    "coinsSpent": 1440,
-    "expGained": 485,
+    "coinsSpent": 1520,
+    "expGained": 445,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-07T07:57:26.605Z"
+    "lastSave": "2025-11-07T07:58:35.660Z"
   }
 }
