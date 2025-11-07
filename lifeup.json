@@ -1311,6 +1311,24 @@
       "repeat": "daily",
       "startDate": "2025-11-06",
       "endDate": null
+    },
+    {
+      "id": "gl_1762502246604",
+      "time": "2025-11-07T07:57:26.604Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "早上刷牙了，但是中午忘记了。还行吧",
+      "taskId": "task_1762439091467",
+      "taskName": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-07",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -1363,6 +1381,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-07T01:05:39.788Z"
+    "lastSave": "2025-11-07T07:57:26.605Z"
   }
 }
