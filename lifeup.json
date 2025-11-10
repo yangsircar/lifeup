@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 12,
-    "totalExp": 395
+    "level": 11,
+    "totalExp": 385
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 3,
-      "exp": 0,
+      "level": 2,
+      "exp": 30,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -176,6 +176,21 @@
             "taskName": "引体拉伸",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-11-10",
+          "timestamp": "2025-11-10T03:15:39.388Z",
+          "change": -10,
+          "expBefore": 0,
+          "expAfter": 30,
+          "levelBefore": 3,
+          "levelAfter": 2,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762744534397",
+            "taskName": "引体拉伸",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -213,6 +228,11 @@
           "date": "2025-11-06",
           "timestamp": "2025-11-06T14:32:50.975Z",
           "level": 3
+        },
+        {
+          "date": "2025-11-10",
+          "timestamp": "2025-11-10T03:15:39.388Z",
+          "level": 2
         }
       ],
       "description": "定义：身体的硬件值。\n内涵：力量、耐力、恢复速度、五感敏锐度。"
@@ -830,7 +850,7 @@
     }
   },
   "resources": {
-    "coins": 390
+    "coins": 370
   },
   "tasks": [
     {
@@ -1634,7 +1654,7 @@
     {
       "id": "task_1762744534397",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -1646,7 +1666,24 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-10T03:15:34.379Z"
+      "abandonedAt": "2025-11-10T03:15:39.387Z"
+    },
+    {
+      "id": "task_1762744539401",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-09",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-10T03:15:39.387Z"
     }
   ],
   "growthLogs": [
@@ -1919,6 +1956,24 @@
       "repeat": "daily",
       "startDate": "2025-11-08",
       "endDate": null
+    },
+    {
+      "id": "gl_1762744542276",
+      "time": "2025-11-10T03:15:42.276Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "回家后，除了带娃，其他都忘了",
+      "taskId": "task_1762744539401",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "daily",
+      "startDate": "2025-11-09",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -1965,12 +2020,12 @@
     "tasksCompleted": 20,
     "tasksCreated": 11,
     "coinsEarned": 2730,
-    "coinsSpent": 2340,
-    "expGained": 195,
+    "coinsSpent": 2360,
+    "expGained": 185,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-10T03:15:38.093Z"
+    "lastSave": "2025-11-10T03:15:42.277Z"
   }
 }
