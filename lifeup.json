@@ -1568,7 +1568,7 @@
       "id": "task_1762744417310",
       "createdAt": "2025-10-29T13:25:17.435Z",
       "status": "pending",
-      "name": "早上刷牙+中午刷牙",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
       "priority": "important_urgent",
@@ -2006,6 +2006,24 @@
       "repeat": "daily",
       "startDate": "2025-11-09",
       "endDate": null
+    },
+    {
+      "id": "gl_1762780490395",
+      "time": "2025-11-10T13:14:50.395Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "真开始了，也很简单",
+      "taskId": "task_1762744543331",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "daily",
+      "startDate": "2025-11-10",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2058,6 +2076,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-10T03:16:43.580Z"
+    "lastSave": "2025-11-10T13:14:50.396Z"
   }
 }
