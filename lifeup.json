@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 15,
-    "totalExp": 725
+    "totalExp": 805
   },
   "attributes": {
     "physical": {
@@ -377,7 +377,7 @@
     "charm": {
       "name": "魅力",
       "level": 4,
-      "exp": 50,
+      "exp": 130,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -545,6 +545,21 @@
             "taskName": "早上刷牙+中午刷牙",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-11-10",
+          "timestamp": "2025-11-10T03:12:55.672Z",
+          "change": 80,
+          "expBefore": 50,
+          "expAfter": 130,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762502247658",
+            "taskName": "早上刷牙+中午刷牙",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -680,7 +695,7 @@
     }
   },
   "resources": {
-    "coins": 1050
+    "coins": 1210
   },
   "tasks": [
     {
@@ -1313,7 +1328,7 @@
     {
       "id": "task_1762502247658",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙",
       "attribute": "charm",
       "difficulty": "medium",
@@ -1325,7 +1340,8 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-07T07:57:27.635Z"
+      "abandonedAt": "2025-11-07T07:57:27.635Z",
+      "completedAt": "2025-11-10T03:12:55.672Z"
     },
     {
       "id": "task_1762502315683",
@@ -1342,6 +1358,23 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80
+    },
+    {
+      "id": "task_1762744375691",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-09",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-07T07:57:27.635Z"
     }
   ],
   "growthLogs": [
@@ -1434,6 +1467,24 @@
       "repeat": "daily",
       "startDate": "2025-11-08",
       "endDate": null
+    },
+    {
+      "id": "gl_1762744392276",
+      "time": "2025-11-10T03:13:12.276Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "去同事婚礼，忘了",
+      "taskId": "task_1762744375691",
+      "taskName": "早上刷牙+中午刷牙",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-09",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -1477,15 +1528,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 19,
+    "tasksCompleted": 20,
     "tasksCreated": 11,
-    "coinsEarned": 2570,
+    "coinsEarned": 2730,
     "coinsSpent": 1520,
-    "expGained": 525,
+    "expGained": 605,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-10T03:12:55.668Z"
+    "lastSave": "2025-11-10T03:13:12.277Z"
   }
 }
