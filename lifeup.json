@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 15,
-    "totalExp": 725
+    "totalExp": 645
   },
   "attributes": {
     "physical": {
@@ -205,7 +205,7 @@
     "intelligence": {
       "name": "智力",
       "level": 4,
-      "exp": 130,
+      "exp": 50,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -340,6 +340,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1762395292840",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-10",
+          "timestamp": "2025-11-10T03:14:48.163Z",
+          "change": -80,
+          "expBefore": 130,
+          "expAfter": 50,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762477456400",
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
           }
@@ -725,7 +740,7 @@
     }
   },
   "resources": {
-    "coins": 1050
+    "coins": 890
   },
   "tasks": [
     {
@@ -1341,7 +1356,7 @@
     {
       "id": "task_1762477456400",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -1353,7 +1368,7 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-11-07T01:04:16.378Z"
+      "abandonedAt": "2025-11-10T03:14:48.163Z"
     },
     {
       "id": "task_1762502247658",
@@ -1439,6 +1454,23 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-10T03:13:37.291Z"
+    },
+    {
+      "id": "task_1762744488183",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-08",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-11-10T03:14:48.163Z"
     }
   ],
   "growthLogs": [
@@ -1603,6 +1635,24 @@
       "repeat": "daily",
       "startDate": "2025-11-07",
       "endDate": null
+    },
+    {
+      "id": "gl_1762744492508",
+      "time": "2025-11-10T03:14:52.508Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "回家后，和娃一起睡觉就忍不住熬夜",
+      "taskId": "task_1762744488183",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-11-08",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -1649,12 +1699,12 @@
     "tasksCompleted": 20,
     "tasksCreated": 11,
     "coinsEarned": 2730,
-    "coinsSpent": 1680,
-    "expGained": 525,
+    "coinsSpent": 1840,
+    "expGained": 445,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-10T03:14:47.028Z"
+    "lastSave": "2025-11-10T03:14:52.509Z"
   }
 }
