@@ -2173,6 +2173,24 @@
       "repeat": "daily",
       "startDate": "2025-11-10",
       "endDate": null
+    },
+    {
+      "id": "gl_1762866900416",
+      "time": "2025-11-11T13:15:00.416Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "基本完成，就是午睡后漱口水忘记了",
+      "taskId": "task_1762744417310",
+      "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-11",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2225,6 +2243,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-11T02:08:58.692Z"
+    "lastSave": "2025-11-11T13:15:00.417Z"
   }
 }
