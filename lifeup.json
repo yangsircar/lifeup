@@ -2118,6 +2118,24 @@
       "repeat": "daily",
       "startDate": "2025-11-10",
       "endDate": null
+    },
+    {
+      "id": "gl_1762826933964",
+      "time": "2025-11-11T02:08:53.964Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😟 压力",
+      "text": "看抖音，从10.20晚上开始看，一直看到12.30.情绪波动大，想独立又被现实压迫，哎",
+      "taskId": "task_1762744498750",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-11-10",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2170,6 +2188,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-10T13:31:12.167Z"
+    "lastSave": "2025-11-11T02:08:53.965Z"
   }
 }
