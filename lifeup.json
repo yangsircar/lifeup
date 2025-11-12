@@ -2275,6 +2275,24 @@
       "repeat": "daily",
       "startDate": "2025-11-11",
       "endDate": null
+    },
+    {
+      "id": "gl_1762950862623",
+      "time": "2025-11-12T12:34:22.623Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😢 失落",
+      "text": "没办法，还是不行，没办法",
+      "taskId": "task_1762826935089",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-11-11",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2327,6 +2345,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-11T13:21:11.191Z"
+    "lastSave": "2025-11-12T12:34:22.623Z"
   }
 }
