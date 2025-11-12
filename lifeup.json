@@ -2464,6 +2464,14 @@
       "description": "备份数据",
       "price": 228,
       "image": "gift"
+    },
+    {
+      "id": "item_1762951928740",
+      "createdAt": "2025-11-12T12:52:08.740Z",
+      "name": "iPhone 16e 美版有锁卡贴机",
+      "description": "",
+      "price": 1799,
+      "image": "gift"
     }
   ],
   "purchaseHistory": [],
@@ -2482,6 +2490,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-12T12:51:28.340Z"
+    "lastSave": "2025-11-12T12:52:12.556Z"
   }
 }
