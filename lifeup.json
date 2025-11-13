@@ -503,6 +503,21 @@
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-11-13",
+          "timestamp": "2025-11-13T13:05:45.341Z",
+          "change": -80,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762950863953",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -1020,7 +1035,7 @@
     }
   },
   "resources": {
-    "coins": 190
+    "coins": 30
   },
   "tasks": [
     {
@@ -1964,7 +1979,7 @@
     {
       "id": "task_1762950863953",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -1976,7 +1991,7 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-11-12T12:34:23.918Z"
+      "abandonedAt": "2025-11-13T13:05:45.341Z"
     },
     {
       "id": "task_1762950889905",
@@ -2028,6 +2043,23 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-13T13:05:16.957Z"
+    },
+    {
+      "id": "task_1763039145386",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-13",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-11-13T13:05:45.341Z"
     }
   ],
   "growthLogs": [
@@ -2534,6 +2566,24 @@
       "repeat": "daily",
       "startDate": "2025-11-12",
       "endDate": null
+    },
+    {
+      "id": "gl_1763039150950",
+      "time": "2025-11-13T13:05:50.950Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1762866936170",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "daily",
+      "startDate": "2025-11-12",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2588,12 +2638,12 @@
     "tasksCompleted": 24,
     "tasksCreated": 11,
     "coinsEarned": 3130,
-    "coinsSpent": 2940,
-    "expGained": 95,
+    "coinsSpent": 3100,
+    "expGained": 15,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-13T13:05:44.414Z"
+    "lastSave": "2025-11-13T13:05:50.950Z"
   }
 }
