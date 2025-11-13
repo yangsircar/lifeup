@@ -2676,38 +2676,6 @@
   ],
   "shopItems": [
     {
-      "id": "item_1761833871890",
-      "createdAt": "2025-10-30T14:17:51.890Z",
-      "name": "iPhone 17国行 256（国补）",
-      "description": "",
-      "price": 5499,
-      "image": "gift"
-    },
-    {
-      "id": "item_1762176885649",
-      "createdAt": "2025-11-03T13:34:45.649Z",
-      "name": "NAS 双盘",
-      "description": "4T*2",
-      "price": 2500,
-      "image": "gift"
-    },
-    {
-      "id": "item_1762257351115",
-      "createdAt": "2025-11-04T11:55:51.115Z",
-      "name": "2.0音箱",
-      "description": "",
-      "price": 599,
-      "image": "gift"
-    },
-    {
-      "id": "item_1762477498698",
-      "createdAt": "2025-11-07T01:04:58.698Z",
-      "name": "硬盘柜",
-      "description": "备份数据",
-      "price": 228,
-      "image": "gift"
-    },
-    {
       "id": "item_1762951928740",
       "createdAt": "2025-11-12T12:52:08.740Z",
       "name": "iPhone 16e 美版有锁卡贴机",
@@ -2732,6 +2700,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-13T13:07:09.814Z"
+    "lastSave": "2025-11-13T13:07:32.870Z"
   }
 }
