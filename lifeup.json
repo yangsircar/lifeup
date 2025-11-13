@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 10,
-    "totalExp": 415
+    "totalExp": 435
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 3,
-      "exp": 20,
+      "exp": 40,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -233,6 +233,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1762780490438",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-11-13",
+          "timestamp": "2025-11-13T13:05:50.952Z",
+          "change": 20,
+          "expBefore": 20,
+          "expAfter": 40,
+          "levelBefore": 3,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1762866936170",
             "taskName": "引体拉伸",
             "action": "完成"
           }
@@ -1035,7 +1050,7 @@
     }
   },
   "resources": {
-    "coins": 30
+    "coins": 70
   },
   "tasks": [
     {
@@ -1962,7 +1977,7 @@
     {
       "id": "task_1762866936170",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -1974,7 +1989,8 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-10T03:15:43.315Z"
+      "abandonedAt": "2025-11-10T03:15:43.315Z",
+      "completedAt": "2025-11-13T13:05:50.952Z"
     },
     {
       "id": "task_1762950863953",
@@ -2060,6 +2076,23 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-13T13:05:45.341Z"
+    },
+    {
+      "id": "task_1763039150991",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-13",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-10T03:15:43.315Z"
     }
   ],
   "growthLogs": [
@@ -2584,6 +2617,24 @@
       "repeat": "daily",
       "startDate": "2025-11-12",
       "endDate": null
+    },
+    {
+      "id": "gl_1763039167726",
+      "time": "2025-11-13T13:06:07.726Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1762176555506",
+      "taskName": "直播露脸",
+      "attribute": "mentalPower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "expReward": 40,
+      "coinReward": 80,
+      "repeat": "none",
+      "startDate": "2025-11-13",
+      "endDate": "2025-11-13"
     }
   ],
   "shopItems": [
@@ -2635,15 +2686,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 24,
+    "tasksCompleted": 25,
     "tasksCreated": 11,
-    "coinsEarned": 3130,
+    "coinsEarned": 3170,
     "coinsSpent": 3100,
-    "expGained": 15,
+    "expGained": 35,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-13T13:05:50.950Z"
+    "lastSave": "2025-11-13T13:06:07.726Z"
   }
 }
