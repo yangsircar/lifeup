@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 11,
-    "totalExp": 510
+    "totalExp": 470
   },
   "attributes": {
     "physical": {
@@ -712,7 +712,7 @@
     "charm": {
       "name": "魅力",
       "level": 5,
-      "exp": 50,
+      "exp": 10,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -997,6 +997,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763360001162",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T06:13:30.316Z",
+          "change": -40,
+          "expBefore": 50,
+          "expAfter": 10,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763360005237",
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "放弃"
           }
@@ -1320,7 +1335,7 @@
     }
   },
   "resources": {
-    "coins": -290
+    "coins": -370
   },
   "tasks": [
     {
@@ -2625,7 +2640,7 @@
     {
       "id": "task_1763360005237",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -2637,7 +2652,24 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:13:25.198Z"
+      "abandonedAt": "2025-11-17T06:13:30.316Z"
+    },
+    {
+      "id": "task_1763360010365",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-17",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-17T06:13:30.316Z"
     }
   ],
   "growthLogs": [
@@ -3490,12 +3522,12 @@
     "tasksCompleted": 28,
     "tasksCreated": 12,
     "coinsEarned": 3810,
-    "coinsSpent": 4100,
-    "expGained": -145,
+    "coinsSpent": 4180,
+    "expGained": -185,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:13:29.166Z"
+    "lastSave": "2025-11-17T06:13:36.230Z"
   }
 }
