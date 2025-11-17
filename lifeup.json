@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 11,
-    "totalExp": 490
+    "totalExp": 570
   },
   "attributes": {
     "physical": {
@@ -727,7 +727,7 @@
     "charm": {
       "name": "魅力",
       "level": 5,
-      "exp": 10,
+      "exp": 90,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -1029,6 +1029,21 @@
             "taskId": "task_1763360005237",
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T15:09:01.122Z",
+          "change": 80,
+          "expBefore": 10,
+          "expAfter": 90,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763360010365",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "完成"
           }
         }
       ],
@@ -1365,7 +1380,7 @@
     }
   },
   "resources": {
-    "coins": -370
+    "coins": -210
   },
   "tasks": [
     {
@@ -2701,7 +2716,7 @@
     {
       "id": "task_1763360010365",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -2713,7 +2728,8 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:13:30.316Z"
+      "abandonedAt": "2025-11-17T06:13:30.316Z",
+      "completedAt": "2025-11-17T15:09:01.122Z"
     },
     {
       "id": "task_1763392129194",
@@ -2737,6 +2753,23 @@
         3,
         4
       ]
+    },
+    {
+      "id": "task_1763392141161",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-18",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-17T06:13:30.316Z"
     }
   ],
   "growthLogs": [
@@ -3621,6 +3654,24 @@
       "repeat": "daily",
       "startDate": "2025-11-17",
       "endDate": null
+    },
+    {
+      "id": "gl_1763392194239",
+      "time": "2025-11-17T15:09:54.239Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "买了哈耶克的通往奴役之路的英文版，准备看文艺复兴的书籍",
+      "taskId": "task_1763359961537",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-11-17",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -3640,15 +3691,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 29,
+    "tasksCompleted": 30,
     "tasksCreated": 12,
-    "coinsEarned": 3850,
+    "coinsEarned": 4010,
     "coinsSpent": 4220,
-    "expGained": -185,
+    "expGained": -105,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T15:09:01.120Z"
+    "lastSave": "2025-11-17T15:09:54.240Z"
   }
 }
