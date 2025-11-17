@@ -3512,6 +3512,24 @@
       "repeat": "daily",
       "startDate": "2025-11-16",
       "endDate": null
+    },
+    {
+      "id": "gl_1763392049935",
+      "time": "2025-11-17T15:07:29.935Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763039225158",
+      "taskName": "直播露脸",
+      "attribute": "mentalPower",
+      "difficulty": "hell",
+      "priority": "not_important_not_urgent",
+      "expReward": 40,
+      "coinReward": 80,
+      "repeat": "none",
+      "startDate": "2025-11-17",
+      "endDate": "2025-11-17"
     }
   ],
   "shopItems": [
@@ -3540,6 +3558,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:17:07.269Z"
+    "lastSave": "2025-11-17T15:07:29.936Z"
   }
 }
