@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 9,
-    "totalExp": 435
+    "totalExp": 425
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 3,
-      "exp": 20,
+      "exp": 10,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -278,6 +278,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763092668607",
+            "taskName": "引体拉伸",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T06:12:22.180Z",
+          "change": -10,
+          "expBefore": 20,
+          "expAfter": 10,
+          "levelBefore": 3,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763359933884",
             "taskName": "引体拉伸",
             "action": "放弃"
           }
@@ -1155,7 +1170,7 @@
     }
   },
   "resources": {
-    "coins": -90
+    "coins": -110
   },
   "tasks": [
     {
@@ -2288,7 +2303,7 @@
     {
       "id": "task_1763359933884",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -2300,7 +2315,24 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-17T06:12:13.821Z"
+      "abandonedAt": "2025-11-17T06:12:22.180Z"
+    },
+    {
+      "id": "task_1763359942230",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-16",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-17T06:12:22.180Z"
     }
   ],
   "growthLogs": [
@@ -2951,6 +2983,24 @@
       "repeat": "daily",
       "startDate": "2025-11-15",
       "endDate": null
+    },
+    {
+      "id": "gl_1763359947429",
+      "time": "2025-11-17T06:12:27.429Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763359942230",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "daily",
+      "startDate": "2025-11-16",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2973,12 +3023,12 @@
     "tasksCompleted": 26,
     "tasksCreated": 12,
     "coinsEarned": 3330,
-    "coinsSpent": 3420,
-    "expGained": -45,
+    "coinsSpent": 3440,
+    "expGained": -55,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:12:21.030Z"
+    "lastSave": "2025-11-17T06:12:27.430Z"
   }
 }
