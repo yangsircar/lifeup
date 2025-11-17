@@ -2508,14 +2508,20 @@
       "attribute": "physical",
       "difficulty": "medium",
       "priority": "important_not_urgent",
-      "repeat": "daily",
+      "repeat": "weekly",
       "startDate": "2025-11-17",
       "endDate": null,
       "expReward": 20,
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-17T06:12:28.460Z"
+      "abandonedAt": "2025-11-17T06:12:28.460Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
     },
     {
       "id": "task_1763359953128",
@@ -2559,14 +2565,18 @@
       "attribute": "mentalPower",
       "difficulty": "medium",
       "priority": "important_urgent",
-      "repeat": "daily",
+      "repeat": "weekly",
       "startDate": "2025-11-17",
       "endDate": null,
       "expReward": 80,
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:12:41.484Z"
+      "abandonedAt": "2025-11-17T06:12:41.484Z",
+      "weekdays": [
+        1,
+        3
+      ]
     },
     {
       "id": "task_1763359980530",
@@ -3528,6 +3538,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:13:36.230Z"
+    "lastSave": "2025-11-17T06:14:44.725Z"
   }
 }
