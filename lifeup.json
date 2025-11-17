@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 9,
-    "totalExp": 425
+    "totalExp": 415
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 3,
-      "exp": 10,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -293,6 +293,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763359933884",
+            "taskName": "引体拉伸",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T06:12:28.460Z",
+          "change": -10,
+          "expBefore": 10,
+          "expAfter": 0,
+          "levelBefore": 3,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763359942230",
             "taskName": "引体拉伸",
             "action": "放弃"
           }
@@ -1170,7 +1185,7 @@
     }
   },
   "resources": {
-    "coins": -110
+    "coins": -130
   },
   "tasks": [
     {
@@ -2320,7 +2335,7 @@
     {
       "id": "task_1763359942230",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -2332,7 +2347,24 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-11-17T06:12:22.180Z"
+      "abandonedAt": "2025-11-17T06:12:28.460Z"
+    },
+    {
+      "id": "task_1763359948507",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-17",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-17T06:12:28.460Z"
     }
   ],
   "growthLogs": [
@@ -3001,6 +3033,24 @@
       "repeat": "daily",
       "startDate": "2025-11-16",
       "endDate": null
+    },
+    {
+      "id": "gl_1763359952013",
+      "time": "2025-11-17T06:12:32.013Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763092657979",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-14",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -3023,12 +3073,12 @@
     "tasksCompleted": 26,
     "tasksCreated": 12,
     "coinsEarned": 3330,
-    "coinsSpent": 3440,
-    "expGained": -55,
+    "coinsSpent": 3460,
+    "expGained": -65,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:12:27.430Z"
+    "lastSave": "2025-11-17T06:12:32.014Z"
   }
 }
