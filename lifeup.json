@@ -608,6 +608,21 @@
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T06:13:00.476Z",
+          "change": -80,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763092652973",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -1235,7 +1250,7 @@
     }
   },
   "resources": {
-    "coins": -370
+    "coins": -530
   },
   "tasks": [
     {
@@ -2300,7 +2315,7 @@
     {
       "id": "task_1763092652973",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -2312,7 +2327,7 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-11-14T03:57:32.932Z"
+      "abandonedAt": "2025-11-17T06:13:00.476Z"
     },
     {
       "id": "task_1763092657979",
@@ -2466,6 +2481,23 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-17T06:12:41.484Z"
+    },
+    {
+      "id": "task_1763359980530",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-15",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-11-17T06:13:00.476Z"
     }
   ],
   "growthLogs": [
@@ -3206,6 +3238,24 @@
       "repeat": "daily",
       "startDate": "2025-11-14",
       "endDate": null
+    },
+    {
+      "id": "gl_1763359984109",
+      "time": "2025-11-17T06:13:04.109Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763359980530",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-11-15",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -3228,12 +3278,12 @@
     "tasksCompleted": 26,
     "tasksCreated": 12,
     "coinsEarned": 3330,
-    "coinsSpent": 3700,
-    "expGained": -185,
+    "coinsSpent": 3860,
+    "expGained": -265,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T06:12:59.400Z"
+    "lastSave": "2025-11-17T06:13:04.110Z"
   }
 }
