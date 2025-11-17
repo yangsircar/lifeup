@@ -2883,6 +2883,24 @@
       "repeat": "daily",
       "startDate": "2025-11-13",
       "endDate": null
+    },
+    {
+      "id": "gl_1763359932662",
+      "time": "2025-11-17T06:12:12.662Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763092668607",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "daily",
+      "startDate": "2025-11-14",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -2911,6 +2929,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-14T03:57:50.902Z"
+    "lastSave": "2025-11-17T06:12:12.663Z"
   }
 }
