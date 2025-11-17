@@ -1277,6 +1277,21 @@
             "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-11-17",
+          "timestamp": "2025-11-17T15:07:31.102Z",
+          "change": -20,
+          "expBefore": 0,
+          "expAfter": 0,
+          "levelBefore": 0,
+          "levelAfter": 0,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763039225158",
+            "taskName": "直播露脸",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -1335,7 +1350,7 @@
     }
   },
   "resources": {
-    "coins": -370
+    "coins": -410
   },
   "tasks": [
     {
@@ -2384,7 +2399,7 @@
     {
       "id": "task_1763039225158",
       "createdAt": "2025-11-13T13:07:05.158Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "直播露脸",
       "attribute": "mentalPower",
       "difficulty": "hell",
@@ -2395,7 +2410,8 @@
       "expReward": 40,
       "coinReward": 80,
       "expPenalty": 20,
-      "coinPenalty": 40
+      "coinPenalty": 40,
+      "abandonedAt": "2025-11-17T15:07:31.102Z"
     },
     {
       "id": "task_1763092652973",
@@ -3552,12 +3568,12 @@
     "tasksCompleted": 28,
     "tasksCreated": 12,
     "coinsEarned": 3810,
-    "coinsSpent": 4180,
-    "expGained": -185,
+    "coinsSpent": 4220,
+    "expGained": -205,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-17T15:07:29.936Z"
+    "lastSave": "2025-11-17T15:08:45.120Z"
   }
 }
