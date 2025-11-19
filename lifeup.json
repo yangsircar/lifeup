@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 15,
-    "totalExp": 730
+    "level": 14,
+    "totalExp": 770
   },
   "attributes": {
     "physical": {
@@ -767,7 +767,7 @@
     "charm": {
       "name": "魅力",
       "level": 5,
-      "exp": 90,
+      "exp": 170,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -1085,6 +1085,21 @@
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-19",
+          "timestamp": "2025-11-19T12:43:59.345Z",
+          "change": 80,
+          "expBefore": 90,
+          "expAfter": 170,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763392141161",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -1148,7 +1163,7 @@
     },
     "mentalPower": {
       "name": "心力",
-      "level": 3,
+      "level": 2,
       "exp": 10,
       "icon": "bi-shield-fill",
       "color": "mentalPower",
@@ -1377,6 +1392,21 @@
             "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-19",
+          "timestamp": "2025-11-19T12:44:03.748Z",
+          "change": -40,
+          "expBefore": 10,
+          "expAfter": 10,
+          "levelBefore": 3,
+          "levelAfter": 2,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763392759956",
+            "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -1424,6 +1454,11 @@
           "date": "2025-11-17",
           "timestamp": "2025-11-17T15:19:19.922Z",
           "level": 3
+        },
+        {
+          "date": "2025-11-19",
+          "timestamp": "2025-11-19T12:44:03.748Z",
+          "level": 2
         }
       ],
       "description": "定义：心理电池的容量与充放电效率。\n内涵：抗挫带宽、情绪复原、专注深度、自我慈悲、意义感续航。"
@@ -1440,7 +1475,7 @@
     }
   },
   "resources": {
-    "coins": 110
+    "coins": 190
   },
   "tasks": [
     {
@@ -2818,7 +2853,7 @@
     {
       "id": "task_1763392141161",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -2830,12 +2865,13 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:13:30.316Z"
+      "abandonedAt": "2025-11-17T06:13:30.316Z",
+      "completedAt": "2025-11-19T12:43:59.345Z"
     },
     {
       "id": "task_1763392759956",
       "createdAt": "2025-11-06T15:20:09.701Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
       "attribute": "mentalPower",
       "difficulty": "medium",
@@ -2847,7 +2883,7 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:12:41.484Z",
+      "abandonedAt": "2025-11-19T12:44:03.748Z",
       "weekdays": [
         1,
         2,
@@ -2889,6 +2925,46 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-18T11:41:48.228Z"
+    },
+    {
+      "id": "task_1763556239386",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-19",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-17T06:13:30.316Z"
+    },
+    {
+      "id": "task_1763556243790",
+      "createdAt": "2025-11-06T15:20:09.701Z",
+      "status": "pending",
+      "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-20",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-19T12:44:03.748Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "growthLogs": [
@@ -3881,6 +3957,42 @@
       "repeat": "daily",
       "startDate": "2025-11-18",
       "endDate": null
+    },
+    {
+      "id": "gl_1763556242486",
+      "time": "2025-11-19T12:44:02.486Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763392759956",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-11-18",
+      "endDate": null
+    },
+    {
+      "id": "gl_1763556247062",
+      "time": "2025-11-19T12:44:07.062Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763392129194",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "weekly",
+      "startDate": "2025-11-18",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -3900,15 +4012,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 32,
+    "tasksCompleted": 33,
     "tasksCreated": 12,
-    "coinsEarned": 4490,
-    "coinsSpent": 4380,
-    "expGained": 55,
+    "coinsEarned": 4650,
+    "coinsSpent": 4460,
+    "expGained": 95,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-19T12:43:59.342Z"
+    "lastSave": "2025-11-19T12:44:07.063Z"
   }
 }
