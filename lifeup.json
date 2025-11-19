@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 14,
-    "totalExp": 770
+    "totalExp": 790
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 3,
-      "exp": 20,
+      "exp": 40,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -323,6 +323,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763359948507",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-11-19",
+          "timestamp": "2025-11-19T12:46:03.944Z",
+          "change": 20,
+          "expBefore": 20,
+          "expAfter": 40,
+          "levelBefore": 3,
+          "levelAfter": 3,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763392129194",
             "taskName": "引体拉伸",
             "action": "完成"
           }
@@ -1475,7 +1490,7 @@
     }
   },
   "resources": {
-    "coins": 190
+    "coins": 230
   },
   "tasks": [
     {
@@ -2830,7 +2845,7 @@
     {
       "id": "task_1763392129194",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -2848,7 +2863,8 @@
         2,
         3,
         4
-      ]
+      ],
+      "completedAt": "2025-11-19T12:46:03.944Z"
     },
     {
       "id": "task_1763392141161",
@@ -2959,6 +2975,29 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-19T12:44:03.748Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "task_1763556363980",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-20",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-17T06:12:28.460Z",
       "weekdays": [
         1,
         2,
@@ -4011,6 +4050,24 @@
       "repeat": "weekly",
       "startDate": "2025-11-18",
       "endDate": null
+    },
+    {
+      "id": "gl_1763556367717",
+      "time": "2025-11-19T12:46:07.717Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763556239386",
+      "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "daily",
+      "startDate": "2025-11-19",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -4030,15 +4087,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 33,
+    "tasksCompleted": 34,
     "tasksCreated": 12,
-    "coinsEarned": 4650,
+    "coinsEarned": 4690,
     "coinsSpent": 4460,
-    "expGained": 95,
+    "expGained": 115,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-19T12:46:03.942Z"
+    "lastSave": "2025-11-19T12:46:07.719Z"
   }
 }
