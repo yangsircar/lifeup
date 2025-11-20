@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 17,
-    "totalExp": 1150
+    "level": 18,
+    "totalExp": 1230
   },
   "attributes": {
     "physical": {
@@ -801,8 +801,8 @@
     },
     "charm": {
       "name": "魅力",
-      "level": 5,
-      "exp": 250,
+      "level": 6,
+      "exp": 10,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -1150,6 +1150,21 @@
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-20",
+          "timestamp": "2025-11-20T11:11:38.223Z",
+          "change": 80,
+          "expBefore": 250,
+          "expAfter": 10,
+          "levelBefore": 5,
+          "levelAfter": 6,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763556367753",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -1197,6 +1212,11 @@
           "date": "2025-11-14",
           "timestamp": "2025-11-14T03:57:42.854Z",
           "level": 5
+        },
+        {
+          "date": "2025-11-20",
+          "timestamp": "2025-11-20T11:11:38.223Z",
+          "level": 6
         }
       ],
       "description": "定义：瞬间吸引力与情绪感染力。\n内涵：外貌基础分、第一印象、表达节奏、微表情管理、故事张力、舞台气场。"
@@ -1565,7 +1585,7 @@
     }
   },
   "resources": {
-    "coins": 950
+    "coins": 1110
   },
   "tasks": [
     {
@@ -3086,7 +3106,7 @@
     {
       "id": "task_1763556367753",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -3098,7 +3118,8 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-11-17T06:13:30.316Z"
+      "abandonedAt": "2025-11-17T06:13:30.316Z",
+      "completedAt": "2025-11-20T11:11:38.223Z"
     },
     {
       "id": "task_1763637077261",
@@ -3116,6 +3137,23 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-18T11:41:48.228Z"
+    },
+    {
+      "id": "task_1763637098256",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-21",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-17T06:13:30.316Z"
     }
   ],
   "growthLogs": [
@@ -4253,15 +4291,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 37,
+    "tasksCompleted": 38,
     "tasksCreated": 12,
-    "coinsEarned": 5410,
+    "coinsEarned": 5570,
     "coinsSpent": 4460,
-    "expGained": 475,
+    "expGained": 555,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-20T11:11:38.221Z"
+    "lastSave": "2025-11-20T11:11:43.716Z"
   }
 }
