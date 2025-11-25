@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 18,
-    "totalExp": 1450
+    "totalExp": 1370
   },
   "attributes": {
     "physical": {
@@ -410,7 +410,7 @@
     "intelligence": {
       "name": "智力",
       "level": 5,
-      "exp": 170,
+      "exp": 90,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -800,6 +800,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763955415385",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-25",
+          "timestamp": "2025-11-25T10:36:52.010Z",
+          "change": -80,
+          "expBefore": 170,
+          "expAfter": 90,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763955421238",
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
           }
@@ -1710,7 +1725,7 @@
     }
   },
   "resources": {
-    "coins": 1550
+    "coins": 1390
   },
   "tasks": [
     {
@@ -3343,7 +3358,7 @@
     {
       "id": "task_1763955421238",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -3355,7 +3370,7 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-11-24T03:37:01.219Z"
+      "abandonedAt": "2025-11-25T10:36:52.010Z"
     },
     {
       "id": "task_1763955454341",
@@ -3426,6 +3441,23 @@
         3,
         4
       ]
+    },
+    {
+      "id": "task_1764067012054",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-25",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-11-25T10:36:52.010Z"
     }
   ],
   "growthLogs": [
@@ -4728,12 +4760,12 @@
     "tasksCompleted": 42,
     "tasksCreated": 12,
     "coinsEarned": 6410,
-    "coinsSpent": 4860,
-    "expGained": 775,
+    "coinsSpent": 5020,
+    "expGained": 695,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-25T10:36:50.620Z"
+    "lastSave": "2025-11-25T10:36:59.524Z"
   }
 }
