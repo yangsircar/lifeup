@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 18,
-    "totalExp": 1290
+    "totalExp": 1370
   },
   "attributes": {
     "physical": {
@@ -917,7 +917,7 @@
     "charm": {
       "name": "魅力",
       "level": 6,
-      "exp": 50,
+      "exp": 130,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -1307,6 +1307,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763955454341",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-11-26",
+          "timestamp": "2025-11-26T11:32:36.142Z",
+          "change": 80,
+          "expBefore": 50,
+          "expAfter": 130,
+          "levelBefore": 6,
+          "levelAfter": 6,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1764067003965",
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "完成"
           }
@@ -1740,7 +1755,7 @@
     }
   },
   "resources": {
-    "coins": 1230
+    "coins": 1390
   },
   "tasks": [
     {
@@ -3437,7 +3452,7 @@
     {
       "id": "task_1764067003965",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "completed",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -3455,7 +3470,8 @@
         2,
         3,
         4
-      ]
+      ],
+      "completedAt": "2025-11-26T11:32:36.141Z"
     },
     {
       "id": "task_1764067012054",
@@ -3490,6 +3506,29 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-11-26T11:32:27.769Z"
+    },
+    {
+      "id": "task_1764156756173",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-27",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-24T03:37:34.323Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "growthLogs": [
@@ -4825,15 +4864,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 42,
+    "tasksCompleted": 43,
     "tasksCreated": 12,
-    "coinsEarned": 6410,
+    "coinsEarned": 6570,
     "coinsSpent": 5180,
-    "expGained": 615,
+    "expGained": 695,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-26T11:32:36.139Z"
+    "lastSave": "2025-11-26T11:32:45.490Z"
   }
 }
