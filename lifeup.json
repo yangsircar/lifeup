@@ -1,14 +1,14 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 18,
-    "totalExp": 1370
+    "level": 19,
+    "totalExp": 1470
   },
   "attributes": {
     "physical": {
       "name": "体魄",
-      "level": 3,
-      "exp": 60,
+      "level": 4,
+      "exp": 0,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -356,6 +356,21 @@
             "taskName": "引体拉伸",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-26",
+          "timestamp": "2025-11-26T14:12:56.738Z",
+          "change": 20,
+          "expBefore": 60,
+          "expAfter": 0,
+          "levelBefore": 3,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763991603217",
+            "taskName": "引体拉伸",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -403,6 +418,11 @@
           "date": "2025-11-10",
           "timestamp": "2025-11-10T13:14:50.398Z",
           "level": 3
+        },
+        {
+          "date": "2025-11-26",
+          "timestamp": "2025-11-26T14:12:56.738Z",
+          "level": 4
         }
       ],
       "description": "定义：身体的硬件值。\n内涵：力量、耐力、恢复速度、五感敏锐度。"
@@ -1404,7 +1424,7 @@
     "mentalPower": {
       "name": "心力",
       "level": 4,
-      "exp": 10,
+      "exp": 90,
       "icon": "bi-shield-fill",
       "color": "mentalPower",
       "expHistory": [
@@ -1677,6 +1697,21 @@
             "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-11-26",
+          "timestamp": "2025-11-26T14:12:23.219Z",
+          "change": 80,
+          "expBefore": 10,
+          "expAfter": 90,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1763556243790",
+            "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+            "action": "完成"
+          }
         }
       ],
       "levelHistory": [
@@ -1755,7 +1790,7 @@
     }
   },
   "resources": {
-    "coins": 1390
+    "coins": 1590
   },
   "tasks": [
     {
@@ -3230,7 +3265,7 @@
     {
       "id": "task_1763556243790",
       "createdAt": "2025-11-06T15:20:09.701Z",
-      "status": "pending",
+      "status": "completed",
       "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
       "attribute": "mentalPower",
       "difficulty": "medium",
@@ -3248,7 +3283,8 @@
         2,
         3,
         4
-      ]
+      ],
+      "completedAt": "2025-11-26T14:12:23.219Z"
     },
     {
       "id": "task_1763556363980",
@@ -3429,7 +3465,7 @@
     {
       "id": "task_1763991603217",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "completed",
       "name": "引体拉伸",
       "attribute": "physical",
       "difficulty": "medium",
@@ -3447,7 +3483,8 @@
         2,
         3,
         4
-      ]
+      ],
+      "completedAt": "2025-11-26T14:12:56.738Z"
     },
     {
       "id": "task_1764067003965",
@@ -3523,6 +3560,52 @@
       "expPenalty": 40,
       "coinPenalty": 80,
       "abandonedAt": "2025-11-24T03:37:34.323Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "task_1764166343256",
+      "createdAt": "2025-11-06T15:20:09.701Z",
+      "status": "pending",
+      "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-27",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-11-19T12:44:03.748Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "task_1764166376772",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-11-27",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-11-17T06:12:28.460Z",
       "weekdays": [
         1,
         2,
@@ -4863,6 +4946,24 @@
       "repeat": "weekly",
       "startDate": "2025-11-20",
       "endDate": null
+    },
+    {
+      "id": "gl_1764166376735",
+      "time": "2025-11-26T14:12:56.735Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1763991603217",
+      "taskName": "引体拉伸",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "weekly",
+      "startDate": "2025-11-25",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -4882,15 +4983,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 43,
+    "tasksCompleted": 45,
     "tasksCreated": 12,
-    "coinsEarned": 6570,
+    "coinsEarned": 6770,
     "coinsSpent": 5180,
-    "expGained": 695,
+    "expGained": 795,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-26T14:12:23.217Z"
+    "lastSave": "2025-11-26T14:12:59.583Z"
   }
 }
