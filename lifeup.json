@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 18,
-    "totalExp": 1370
+    "totalExp": 1290
   },
   "attributes": {
     "physical": {
@@ -410,7 +410,7 @@
     "intelligence": {
       "name": "智力",
       "level": 5,
-      "exp": 90,
+      "exp": 10,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -815,6 +815,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1763955421238",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-11-26",
+          "timestamp": "2025-11-26T11:32:27.769Z",
+          "change": -80,
+          "expBefore": 90,
+          "expAfter": 10,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1764067012054",
             "taskName": "晚上十一点半点睡觉",
             "action": "放弃"
           }
@@ -1725,7 +1740,7 @@
     }
   },
   "resources": {
-    "coins": 1390
+    "coins": 1230
   },
   "tasks": [
     {
@@ -3445,7 +3460,7 @@
     {
       "id": "task_1764067012054",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -3457,7 +3472,24 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-11-25T10:36:52.010Z"
+      "abandonedAt": "2025-11-26T11:32:27.769Z"
+    },
+    {
+      "id": "task_1764156747809",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-26",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-11-26T11:32:27.769Z"
     }
   ],
   "growthLogs": [
@@ -4756,6 +4788,24 @@
       "repeat": "daily",
       "startDate": "2025-11-25",
       "endDate": null
+    },
+    {
+      "id": "gl_1764156756138",
+      "time": "2025-11-26T11:32:36.138Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1764067003965",
+      "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-11-26",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -4778,12 +4828,12 @@
     "tasksCompleted": 42,
     "tasksCreated": 12,
     "coinsEarned": 6410,
-    "coinsSpent": 5020,
-    "expGained": 695,
+    "coinsSpent": 5180,
+    "expGained": 615,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-11-26T11:32:26.531Z"
+    "lastSave": "2025-11-26T11:32:36.139Z"
   }
 }
