@@ -1,8 +1,8 @@
 {
   "character": {
     "name": "冒险者",
-    "level": 19,
-    "totalExp": 1470
+    "level": 18,
+    "totalExp": 1390
   },
   "attributes": {
     "physical": {
@@ -429,8 +429,8 @@
     },
     "intelligence": {
       "name": "智力",
-      "level": 5,
-      "exp": 10,
+      "level": 4,
+      "exp": 90,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -898,6 +898,21 @@
             "taskName": "晚上十一点半点睡觉",
             "action": "完成"
           }
+        },
+        {
+          "date": "2025-12-01",
+          "timestamp": "2025-12-01T08:44:17.927Z",
+          "change": -80,
+          "expBefore": 10,
+          "expAfter": 90,
+          "levelBefore": 5,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1764578643766",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -985,6 +1000,11 @@
           "date": "2025-12-01",
           "timestamp": "2025-12-01T08:44:03.748Z",
           "level": 5
+        },
+        {
+          "date": "2025-12-01",
+          "timestamp": "2025-12-01T08:44:17.927Z",
+          "level": 4
         }
       ],
       "description": "定义：信息处理与建模速度。\n内涵：逻辑、记忆、联想、跨界迁移、元认知（知道自己怎么想）。"
@@ -1845,7 +1865,7 @@
     }
   },
   "resources": {
-    "coins": 1590
+    "coins": 1430
   },
   "tasks": [
     {
@@ -3706,7 +3726,7 @@
     {
       "id": "task_1764578643766",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -3718,7 +3738,24 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-12-01T08:44:00.255Z"
+      "abandonedAt": "2025-12-01T08:44:17.927Z"
+    },
+    {
+      "id": "task_1764578657945",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-11-30",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-12-01T08:44:17.927Z"
     }
   ],
   "growthLogs": [
@@ -5161,6 +5198,24 @@
       "repeat": "daily",
       "startDate": "2025-11-29",
       "endDate": null
+    },
+    {
+      "id": "gl_1764578666936",
+      "time": "2025-12-01T08:44:26.936Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1764578657945",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-11-30",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -5183,12 +5238,12 @@
     "tasksCompleted": 46,
     "tasksCreated": 12,
     "coinsEarned": 7090,
-    "coinsSpent": 5500,
-    "expGained": 795,
+    "coinsSpent": 5660,
+    "expGained": 715,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-01T08:44:16.882Z"
+    "lastSave": "2025-12-01T08:44:26.937Z"
   }
 }
