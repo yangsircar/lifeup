@@ -4096,7 +4096,7 @@
       "id": "task_1764760866967",
       "createdAt": "2025-10-29T13:23:48.947Z",
       "status": "pending",
-      "name": "引体拉伸//俯卧撑",
+      "name": "引体拉伸//俯卧撑/散步",
       "attribute": "physical",
       "difficulty": "medium",
       "priority": "important_not_urgent",
@@ -5866,6 +5866,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-05T06:15:12.126Z"
+    "lastSave": "2025-12-05T06:16:01.901Z"
   }
 }
