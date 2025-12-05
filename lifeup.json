@@ -5834,11 +5834,19 @@
   ],
   "shopItems": [
     {
-      "id": "item_1762951928740",
-      "createdAt": "2025-11-12T12:52:08.740Z",
-      "name": "iPhone 16e 美版有锁卡贴机",
-      "description": "",
-      "price": 1799,
+      "id": "item_1764915065422",
+      "createdAt": "2025-12-05T06:11:05.422Z",
+      "name": "iPhone16e无锁",
+      "description": "无锁美版esim",
+      "price": 2500,
+      "image": "gift"
+    },
+    {
+      "id": "item_1764915296669",
+      "createdAt": "2025-12-05T06:14:56.669Z",
+      "name": "open wrt 路由器",
+      "description": "自动代理流量",
+      "price": 100,
       "image": "gift"
     }
   ],
@@ -5858,6 +5866,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-05T06:08:40.991Z"
+    "lastSave": "2025-12-05T06:14:58.238Z"
   }
 }
