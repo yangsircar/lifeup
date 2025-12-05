@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 20,
-    "totalExp": 1790
+    "totalExp": 1950
   },
   "attributes": {
     "physical": {
@@ -460,7 +460,7 @@
     "intelligence": {
       "name": "智力",
       "level": 5,
-      "exp": 90,
+      "exp": 250,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -1000,6 +1000,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1764760804345",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "完成"
+          }
+        },
+        {
+          "date": "2025-12-05",
+          "timestamp": "2025-12-05T06:08:36.043Z",
+          "change": 160,
+          "expBefore": 90,
+          "expAfter": 250,
+          "levelBefore": 5,
+          "levelAfter": 5,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1764847652833",
             "taskName": "晚上十一点半点睡觉",
             "action": "完成"
           }
@@ -2035,7 +2050,7 @@
     }
   },
   "resources": {
-    "coins": 2230
+    "coins": 2550
   },
   "tasks": [
     {
@@ -4126,13 +4141,31 @@
     {
       "id": "task_1764847652833",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "completed",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
       "priority": "important_urgent",
       "repeat": "daily",
       "startDate": "2025-12-04",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-12-02T04:01:23.923Z",
+      "completedAt": "2025-12-05T06:08:36.043Z"
+    },
+    {
+      "id": "task_1764914916086",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-12-05",
       "endDate": null,
       "expReward": 160,
       "coinReward": 320,
@@ -5816,15 +5849,15 @@
     "path": "lifeup.json"
   },
   "statistics": {
-    "tasksCompleted": 53,
+    "tasksCompleted": 54,
     "tasksCreated": 12,
-    "coinsEarned": 8290,
+    "coinsEarned": 8610,
     "coinsSpent": 6060,
-    "expGained": 1115,
+    "expGained": 1275,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-05T06:08:36.041Z"
+    "lastSave": "2025-12-05T06:08:40.991Z"
   }
 }
