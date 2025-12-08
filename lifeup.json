@@ -5830,6 +5830,24 @@
       "repeat": "daily",
       "startDate": "2025-12-04",
       "endDate": null
+    },
+    {
+      "id": "gl_1765191911749",
+      "time": "2025-12-08T11:05:11.749Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1764847648192",
+      "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-12-08",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -5866,6 +5884,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-05T06:16:01.901Z"
+    "lastSave": "2025-12-08T11:05:11.752Z"
   }
 }
