@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 21,
-    "totalExp": 2230
+    "totalExp": 2150
   },
   "attributes": {
     "physical": {
@@ -460,7 +460,7 @@
     "intelligence": {
       "name": "智力",
       "level": 6,
-      "exp": 250,
+      "exp": 170,
       "icon": "bi-lightbulb-fill",
       "color": "intelligence",
       "expHistory": [
@@ -1047,6 +1047,21 @@
             "taskId": "task_1765191931744",
             "taskName": "晚上十一点半点睡觉",
             "action": "完成"
+          }
+        },
+        {
+          "date": "2025-12-08",
+          "timestamp": "2025-12-08T11:05:44.602Z",
+          "change": -80,
+          "expBefore": 250,
+          "expAfter": 170,
+          "levelBefore": 6,
+          "levelAfter": 6,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1765191939948",
+            "taskName": "晚上十一点半点睡觉",
+            "action": "放弃"
           }
         }
       ],
@@ -2100,7 +2115,7 @@
     }
   },
   "resources": {
-    "coins": 3110
+    "coins": 2950
   },
   "tasks": [
     {
@@ -4268,7 +4283,7 @@
     {
       "id": "task_1765191939948",
       "createdAt": "2025-10-30T14:11:55.466Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "晚上十一点半点睡觉",
       "attribute": "intelligence",
       "difficulty": "hard",
@@ -4280,7 +4295,24 @@
       "coinReward": 320,
       "expPenalty": 80,
       "coinPenalty": 160,
-      "abandonedAt": "2025-12-02T04:01:23.923Z"
+      "abandonedAt": "2025-12-08T11:05:44.601Z"
+    },
+    {
+      "id": "task_1765191944654",
+      "createdAt": "2025-10-30T14:11:55.466Z",
+      "status": "pending",
+      "name": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "repeat": "daily",
+      "startDate": "2025-12-08",
+      "endDate": null,
+      "expReward": 160,
+      "coinReward": 320,
+      "expPenalty": 80,
+      "coinPenalty": 160,
+      "abandonedAt": "2025-12-08T11:05:44.601Z"
     }
   ],
   "growthLogs": [
@@ -6011,6 +6043,24 @@
       "repeat": "daily",
       "startDate": "2025-12-07",
       "endDate": null
+    },
+    {
+      "id": "gl_1765191948132",
+      "time": "2025-12-08T11:05:48.132Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1764595745968",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-12-02",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -6041,12 +6091,12 @@
     "tasksCompleted": 56,
     "tasksCreated": 12,
     "coinsEarned": 9250,
-    "coinsSpent": 6140,
-    "expGained": 1555,
+    "coinsSpent": 6300,
+    "expGained": 1475,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-08T11:05:43.189Z"
+    "lastSave": "2025-12-08T11:05:48.135Z"
   }
 }
