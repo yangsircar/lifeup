@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 20,
-    "totalExp": 1950
+    "totalExp": 1910
   },
   "attributes": {
     "physical": {
@@ -1132,7 +1132,7 @@
     "charm": {
       "name": "魅力",
       "level": 6,
-      "exp": 250,
+      "exp": 210,
       "icon": "bi-star-fill",
       "color": "charm",
       "expHistory": [
@@ -1584,6 +1584,21 @@
             "taskId": "task_1764760823178",
             "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
             "action": "完成"
+          }
+        },
+        {
+          "date": "2025-12-08",
+          "timestamp": "2025-12-08T11:05:12.970Z",
+          "change": -40,
+          "expBefore": 250,
+          "expAfter": 210,
+          "levelBefore": 6,
+          "levelAfter": 6,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1764847648192",
+            "taskName": "早上刷牙+中午刷牙（午睡后漱口水）",
+            "action": "放弃"
           }
         }
       ],
@@ -2050,7 +2065,7 @@
     }
   },
   "resources": {
-    "coins": 2550
+    "coins": 2470
   },
   "tasks": [
     {
@@ -4118,7 +4133,7 @@
     {
       "id": "task_1764847648192",
       "createdAt": "2025-10-29T13:25:17.435Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "早上刷牙+中午刷牙（午睡后漱口水）",
       "attribute": "charm",
       "difficulty": "medium",
@@ -4130,7 +4145,7 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-12-03T11:20:23.137Z",
+      "abandonedAt": "2025-12-08T11:05:12.970Z",
       "weekdays": [
         1,
         2,
@@ -4172,6 +4187,29 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-12-02T04:01:23.923Z"
+    },
+    {
+      "id": "task_1765191913025",
+      "createdAt": "2025-10-29T13:25:17.435Z",
+      "status": "pending",
+      "name": "早上刷牙+中午刷牙（午睡后漱口水）",
+      "attribute": "charm",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-12-09",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-12-08T11:05:12.970Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "growthLogs": [
@@ -5848,6 +5886,24 @@
       "repeat": "weekly",
       "startDate": "2025-12-08",
       "endDate": null
+    },
+    {
+      "id": "gl_1765191931700",
+      "time": "2025-12-08T11:05:31.700Z",
+      "type": "task_reflection",
+      "action": "complete",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1764914916086",
+      "taskName": "晚上十一点半点睡觉",
+      "attribute": "intelligence",
+      "difficulty": "hard",
+      "priority": "important_urgent",
+      "expReward": 160,
+      "coinReward": 320,
+      "repeat": "daily",
+      "startDate": "2025-12-05",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -5878,12 +5934,12 @@
     "tasksCompleted": 54,
     "tasksCreated": 12,
     "coinsEarned": 8610,
-    "coinsSpent": 6060,
-    "expGained": 1275,
+    "coinsSpent": 6140,
+    "expGained": 1235,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-08T11:05:11.752Z"
+    "lastSave": "2025-12-08T11:05:31.704Z"
   }
 }
