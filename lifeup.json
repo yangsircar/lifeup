@@ -6160,6 +6160,24 @@
       "repeat": "weekly",
       "startDate": "2025-12-04",
       "endDate": null
+    },
+    {
+      "id": "gl_1765278107649",
+      "time": "2025-12-09T11:01:47.649Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1765191954822",
+      "taskName": "引体拉伸//俯卧撑/散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "weekly",
+      "startDate": "2025-12-09",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -6196,6 +6214,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-08T11:06:07.339Z"
+    "lastSave": "2025-12-09T11:01:47.651Z"
   }
 }
