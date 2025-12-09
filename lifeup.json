@@ -2,13 +2,13 @@
   "character": {
     "name": "冒险者",
     "level": 20,
-    "totalExp": 2100
+    "totalExp": 2090
   },
   "attributes": {
     "physical": {
       "name": "体魄",
       "level": 4,
-      "exp": 30,
+      "exp": 20,
       "icon": "bi-heart-fill",
       "color": "physical",
       "expHistory": [
@@ -413,6 +413,21 @@
           "source": {
             "sourceType": "task",
             "taskId": "task_1764760866967",
+            "taskName": "引体拉伸//俯卧撑/散步",
+            "action": "放弃"
+          }
+        },
+        {
+          "date": "2025-12-09",
+          "timestamp": "2025-12-09T11:01:48.888Z",
+          "change": -10,
+          "expBefore": 30,
+          "expAfter": 20,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1765191954822",
             "taskName": "引体拉伸//俯卧撑/散步",
             "action": "放弃"
           }
@@ -2150,7 +2165,7 @@
     }
   },
   "resources": {
-    "coins": 2850
+    "coins": 2830
   },
   "tasks": [
     {
@@ -4375,7 +4390,7 @@
     {
       "id": "task_1765191954822",
       "createdAt": "2025-10-29T13:23:48.947Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "引体拉伸//俯卧撑/散步",
       "attribute": "physical",
       "difficulty": "medium",
@@ -4387,7 +4402,30 @@
       "coinReward": 40,
       "expPenalty": 10,
       "coinPenalty": 20,
-      "abandonedAt": "2025-12-08T11:05:54.753Z",
+      "abandonedAt": "2025-12-09T11:01:48.887Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "task_1765278108930",
+      "createdAt": "2025-10-29T13:23:48.947Z",
+      "status": "pending",
+      "name": "引体拉伸//俯卧撑/散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-12-10",
+      "endDate": null,
+      "expReward": 20,
+      "coinReward": 40,
+      "expPenalty": 10,
+      "coinPenalty": 20,
+      "abandonedAt": "2025-12-09T11:01:48.887Z",
       "weekdays": [
         1,
         2,
@@ -6178,6 +6216,24 @@
       "repeat": "weekly",
       "startDate": "2025-12-09",
       "endDate": null
+    },
+    {
+      "id": "gl_1765278112521",
+      "time": "2025-12-09T11:01:52.521Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1765191949555",
+      "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "expReward": 80,
+      "coinReward": 160,
+      "repeat": "weekly",
+      "startDate": "2025-12-09",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -6208,12 +6264,12 @@
     "tasksCompleted": 56,
     "tasksCreated": 12,
     "coinsEarned": 9250,
-    "coinsSpent": 6400,
-    "expGained": 1425,
+    "coinsSpent": 6420,
+    "expGained": 1415,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-09T11:01:47.651Z"
+    "lastSave": "2025-12-09T11:01:52.522Z"
   }
 }
