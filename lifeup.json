@@ -2,7 +2,7 @@
   "character": {
     "name": "冒险者",
     "level": 20,
-    "totalExp": 2210
+    "totalExp": 2170
   },
   "attributes": {
     "physical": {
@@ -1774,7 +1774,7 @@
     "mentalPower": {
       "name": "心力",
       "level": 4,
-      "exp": 90,
+      "exp": 50,
       "icon": "bi-shield-fill",
       "color": "mentalPower",
       "expHistory": [
@@ -2107,6 +2107,21 @@
             "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
             "action": "放弃"
           }
+        },
+        {
+          "date": "2025-12-10",
+          "timestamp": "2025-12-10T11:12:03.431Z",
+          "change": -40,
+          "expBefore": 90,
+          "expAfter": 50,
+          "levelBefore": 4,
+          "levelAfter": 4,
+          "source": {
+            "sourceType": "task",
+            "taskId": "task_1765278113651",
+            "taskName": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+            "action": "放弃"
+          }
         }
       ],
       "levelHistory": [
@@ -2195,7 +2210,7 @@
     }
   },
   "resources": {
-    "coins": 3070
+    "coins": 2990
   },
   "tasks": [
     {
@@ -4467,7 +4482,7 @@
     {
       "id": "task_1765278113651",
       "createdAt": "2025-11-06T15:20:09.701Z",
-      "status": "pending",
+      "status": "abandoned",
       "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
       "attribute": "mentalPower",
       "difficulty": "medium",
@@ -4479,7 +4494,7 @@
       "coinReward": 160,
       "expPenalty": 40,
       "coinPenalty": 80,
-      "abandonedAt": "2025-12-09T11:01:53.607Z",
+      "abandonedAt": "2025-12-10T11:12:03.431Z",
       "weekdays": [
         1,
         2,
@@ -4503,6 +4518,29 @@
       "expPenalty": 80,
       "coinPenalty": 160,
       "abandonedAt": "2025-12-08T11:05:44.601Z"
+    },
+    {
+      "id": "task_1765365123480",
+      "createdAt": "2025-11-06T15:20:09.701Z",
+      "status": "pending",
+      "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
+      "attribute": "mentalPower",
+      "difficulty": "medium",
+      "priority": "important_urgent",
+      "repeat": "weekly",
+      "startDate": "2025-12-11",
+      "endDate": null,
+      "expReward": 80,
+      "coinReward": 160,
+      "expPenalty": 40,
+      "coinPenalty": 80,
+      "abandonedAt": "2025-12-10T11:12:03.431Z",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   ],
   "growthLogs": [
@@ -6359,6 +6397,24 @@
       "repeat": "weekly",
       "startDate": "2025-12-10",
       "endDate": null
+    },
+    {
+      "id": "gl_1765365126216",
+      "time": "2025-12-10T11:12:06.216Z",
+      "type": "task_reflection",
+      "action": "abandon",
+      "mood": "😊 平静",
+      "text": "",
+      "taskId": "task_1765278108930",
+      "taskName": "引体拉伸//俯卧撑/散步",
+      "attribute": "physical",
+      "difficulty": "medium",
+      "priority": "important_not_urgent",
+      "expReward": 20,
+      "coinReward": 40,
+      "repeat": "weekly",
+      "startDate": "2025-12-10",
+      "endDate": null
     }
   ],
   "shopItems": [
@@ -6389,12 +6445,12 @@
     "tasksCompleted": 57,
     "tasksCreated": 12,
     "coinsEarned": 9570,
-    "coinsSpent": 6500,
-    "expGained": 1535,
+    "coinsSpent": 6580,
+    "expGained": 1495,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-10T11:12:01.963Z"
+    "lastSave": "2025-12-10T11:12:06.218Z"
   }
 }
