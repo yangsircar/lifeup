@@ -2290,7 +2290,7 @@
     }
   },
   "resources": {
-    "coins": 3750
+    "coins": 3665
   },
   "tasks": [
     {
@@ -6704,15 +6704,25 @@
       "image": "gift"
     },
     {
-      "id": "item_1764915296669",
-      "createdAt": "2025-12-05T06:14:56.669Z",
-      "name": "open wrt 路由器",
-      "description": "自动代理流量",
-      "price": 100,
+      "id": "item_1765458855108",
+      "createdAt": "2025-12-11T13:14:15.108Z",
+      "name": "jcq q30pro路由器",
+      "description": "openwrt vpn代理",
+      "price": 85,
       "image": "gift"
     }
   ],
-  "purchaseHistory": [],
+  "purchaseHistory": [
+    {
+      "id": "purchase_1765458859076",
+      "itemId": "item_1765458855108",
+      "itemName": "jcq q30pro路由器",
+      "price": 85,
+      "quantity": 1,
+      "totalPrice": 85,
+      "purchasedAt": "2025-12-11T13:14:19.076Z"
+    }
+  ],
   "githubSettings": {
     "token": "",
     "repo": "yangsircar/lifeup",
@@ -6722,12 +6732,12 @@
     "tasksCompleted": 61,
     "tasksCreated": 12,
     "coinsEarned": 10410,
-    "coinsSpent": 6660,
+    "coinsSpent": 6745,
     "expGained": 1875,
     "weeklyData": {},
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-11T11:11:01.769Z"
+    "lastSave": "2025-12-11T13:14:24.164Z"
   }
 }
