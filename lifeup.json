@@ -4861,29 +4861,6 @@
       ]
     },
     {
-      "id": "task_1765890547325",
-      "createdAt": "2025-11-06T15:20:09.701Z",
-      "status": "pending",
-      "name": "如果绝对不用担心金钱和他人看法，我最理想的一天的生活细节是怎样的？从早到晚，我会做些什么。探索未知，寻找热爱，发现兴趣，不功利，仅仅有趣好玩。想一出是一出，随便去哪儿",
-      "attribute": "mentalPower",
-      "difficulty": "medium",
-      "priority": "important_urgent",
-      "repeat": "weekly",
-      "startDate": "2025-12-17",
-      "endDate": null,
-      "expReward": 80,
-      "coinReward": 160,
-      "expPenalty": 40,
-      "coinPenalty": 80,
-      "abandonedAt": "2025-12-16T13:09:07.286Z",
-      "weekdays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    {
       "id": "task_1765890553247",
       "createdAt": "2025-10-29T13:23:48.947Z",
       "status": "pending",
@@ -7167,6 +7144,6 @@
     "monthlyData": {}
   },
   "settings": {
-    "lastSave": "2025-12-16T13:09:56.384Z"
+    "lastSave": "2025-12-16T13:17:28.335Z"
   }
 }
